@@ -85,11 +85,11 @@ class Database extends Config
         // Dynamic settings
         $this->tests['hostname'] = $isLocal ? 'localhost' : 'localhost';
 
-        $this->tests['username'] = $isLocal ? 'root' : 'u540196853_userrobin';
+        $this->tests['username'] = $isLocal ? 'root' : 'u540196853_royaluser';
 
-        $this->tests['password'] = $isLocal ? '': 'y:nfRFg/I!I9';
+        $this->tests['password'] = $isLocal ? '': '+Br7:Xq&r#7';
 
-        $this->tests['database'] = $isLocal ? 'royalalianceayurveda' : 'u540196853_robinfood';
+        $this->tests['database'] = $isLocal ? 'royalalianceayurveda' : 'u540196853_royaldb';
 
         // Ensure that we always set the database group to 'tests' if
         // we are currently running an automated test suite, so that
