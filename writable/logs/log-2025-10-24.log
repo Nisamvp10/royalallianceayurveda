@@ -1,0 +1,264 @@
+ERROR - 2025-10-24 08:31:12 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xamp\\htdocs\\...', 185)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-86.hosting....', 'techens-3531303...', 'ou05lh91h7', 'techens-3531303...', 3306, '', 0)
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#12 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-86.hosting....', 'techens-3531303...', 'ou05lh91h7', 'techens-3531303...', 3306, '', 0)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-10-24 08:31:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `app_settings`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Config\Routes.php(72): getappdata('blog')
+ 5 SYSTEMPATH\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 6 APPPATH\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', [...], Object(Closure))
+ 7 SYSTEMPATH\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\vinsafesolution.com\\techens\\app\\Config\\Routes.php')
+ 8 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-10-24 12:04:51 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xamp\\htdocs\\...', 185)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-86.hosting....', 'techens-3531303...', 'ou05lh91h7', 'techens-3531303...', 3306, '', 0)
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#12 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-86.hosting....', 'techens-3531303...', 'ou05lh91h7', 'techens-3531303...', 3306, '', 0)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-10-24 12:04:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `app_settings`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Config\Routes.php(72): getappdata('blog')
+ 5 SYSTEMPATH\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 6 APPPATH\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', [...], Object(Closure))
+ 7 SYSTEMPATH\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\vinsafesolution.com\\techens\\app\\Config\\Routes.php')
+ 8 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-10-24 12:05:04 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xamp\\htdocs\\...', 185)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-86.hosting....', 'techens-3531303...', 'ou05lh91h7', 'techens-3531303...', 3306, '', 0)
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#12 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-86.hosting....', 'techens-3531303...', 'ou05lh91h7', 'techens-3531303...', 3306, '', 0)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-10-24 12:05:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `app_settings`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Config\Routes.php(72): getappdata('blog')
+ 5 SYSTEMPATH\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 6 APPPATH\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', [...], Object(Closure))
+ 7 SYSTEMPATH\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\vinsafesolution.com\\techens\\app\\Config\\Routes.php')
+ 8 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-10-24 12:05:27 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xamp\\htdocs\\...', 185)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-86.hosting....', 'techens-3531303...', 'ou05lh91h7', 'techens-3531303...', 3306, '', 0)
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#12 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-86.hosting....', 'techens-3531303...', 'ou05lh91h7', 'techens-3531303...', 3306, '', 0)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#3 D:\xamp\htdocs\vinsafesolution.com\techens\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(72): getappdata('blog')
+#5 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#6 D:\xamp\htdocs\vinsafesolution.com\techens\app\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#7 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\...')
+#8 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+#9 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#10 D:\xamp\htdocs\vinsafesolution.com\techens\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\vinsafesolution.com\techens\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-10-24 12:05:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `app_settings`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Config\Routes.php(72): getappdata('blog')
+ 5 SYSTEMPATH\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 6 APPPATH\Config\Routes.php(91): CodeIgniter\Router\RouteCollection->group('admin', [...], Object(Closure))
+ 7 SYSTEMPATH\Router\RouteCollection.php(345): require('D:\\xamp\\htdocs\\vinsafesolution.com\\techens\\app\\Config\\Routes.php')
+ 8 SYSTEMPATH\CodeIgniter.php(811): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 9 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

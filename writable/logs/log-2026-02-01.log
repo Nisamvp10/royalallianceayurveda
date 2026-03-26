@@ -1,0 +1,481 @@
+INFO - 2026-02-01 05:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-01 05:46:45 --> mysqli_sql_exception: Table 'robinfood.purchase_orders' doesn't exist in D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `po`.`id...', 0)
+#1 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po`.`id...')
+#2 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po`.`id...')
+#3 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id...', Array, false)
+#4 D:\xamp\htdocs\robinfood\app\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\robinfood\app\Controllers\admin\InventoryController.php(458): App\Models\PurchaseOrderModel->purchaseHistory('', 'all', '', '', false)
+#6 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\InventoryController->list()
+#7 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\InventoryController))
+#8 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\robinfood\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-02-01 05:46:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'robinfood.purchase_orders' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC', [], false)
+ 2 APPPATH\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admin\InventoryController.php(458): App\Models\PurchaseOrderModel->purchaseHistory('', 'all', '', '', false)
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\InventoryController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-01 05:46:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'robinfood.purchase_orders' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC', [], false)
+ 4 APPPATH\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admin\InventoryController.php(458): App\Models\PurchaseOrderModel->purchaseHistory('', 'all', '', '', false)
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\InventoryController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-01 05:46:45 --> [Caused by] mysqli_sql_exception: Table 'robinfood.purchase_orders' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC', [], false)
+ 5 APPPATH\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\InventoryController.php(458): App\Models\PurchaseOrderModel->purchaseHistory('', 'all', '', '', false)
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\InventoryController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\InventoryController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-01 05:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-02-01 05:49:49 --> mysqli_sql_exception: Table 'robinfood.purchase_order_items' doesn't exist in D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `po`.`id...', 0)
+#1 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po`.`id...')
+#2 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po`.`id...')
+#3 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id...', Array, false)
+#4 D:\xamp\htdocs\robinfood\app\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\robinfood\app\Controllers\admin\InventoryController.php(458): App\Models\PurchaseOrderModel->purchaseHistory('', 'all', '', '', false)
+#6 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\InventoryController->list()
+#7 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\InventoryController))
+#8 D:\xamp\htdocs\robinfood\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\robinfood\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-02-01 05:49:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'robinfood.purchase_order_items' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC', [], false)
+ 2 APPPATH\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admin\InventoryController.php(458): App\Models\PurchaseOrderModel->purchaseHistory('', 'all', '', '', false)
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\InventoryController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\InventoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-01 05:49:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'robinfood.purchase_order_items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC', [], false)
+ 4 APPPATH\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admin\InventoryController.php(458): App\Models\PurchaseOrderModel->purchaseHistory('', 'all', '', '', false)
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\InventoryController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\InventoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-02-01 05:49:49 --> [Caused by] mysqli_sql_exception: Table 'robinfood.purchase_order_items' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+ORDER BY `po`.`id` DESC', [], false)
+ 5 APPPATH\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\InventoryController.php(458): App\Models\PurchaseOrderModel->purchaseHistory('', 'all', '', '', false)
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\InventoryController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\InventoryController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-01 05:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 05:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 06:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-01 07:07:57 --> Error: Call to undefined function gate_appdata()
+in APPPATH\Views\template\layout\main.php on line 192.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('template/layout/main', [], true)
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/category/category', [], true)
+ 5 APPPATH\Controllers\admin\CategoryController.php(18): view('admin/category/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\CategoryController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-01 07:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-01 07:15:34 --> Error: Class "App\Conmtrollers\admin\BaseController" not found
+in APPPATH\Controllers\admin\productmanagementController.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\robinfood\\app\\Controllers\\admin\\productmanagementController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\admin\\productmanagementController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\admin\\productmanagementController')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\admin\\productmanagementController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-01 07:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-01 07:15:35 --> Error: Class "App\Conmtrollers\admin\BaseController" not found
+in APPPATH\Controllers\admin\productmanagementController.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\robinfood\\app\\Controllers\\admin\\productmanagementController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\admin\\productmanagementController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\admin\\productmanagementController')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\admin\\productmanagementController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-01 07:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-01 07:15:36 --> Error: Class "App\Conmtrollers\admin\BaseController" not found
+in APPPATH\Controllers\admin\productmanagementController.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\robinfood\\app\\Controllers\\admin\\productmanagementController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\admin\\productmanagementController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\admin\\productmanagementController')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\admin\\productmanagementController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-01 07:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-01 07:16:14 --> Error: Class "App\Conmtrollers\admin\Controller" not found
+in APPPATH\Controllers\admin\productmanagementController.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\robinfood\\app\\Controllers\\admin\\productmanagementController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\admin\\productmanagementController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\admin\\productmanagementController')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\admin\\productmanagementController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-01 07:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-01 07:16:15 --> Error: Class "App\Conmtrollers\admin\Controller" not found
+in APPPATH\Controllers\admin\productmanagementController.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\robinfood\\app\\Controllers\\admin\\productmanagementController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\admin\\productmanagementController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\admin\\productmanagementController')
+ 5 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\admin\\productmanagementController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-01 07:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-01 07:18:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/productmanagement/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/productmanagement/index.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/productmanagement/index', [], true)
+ 3 APPPATH\Controllers\admin\productmanagementController.php(10): view('admin/productmanagement/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\productmanagementController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\productmanagementController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-01 07:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-01 07:19:23 --> Error: Call to undefined function App\Controllers\admin\upstring()
+in APPPATH\Controllers\admin\productmanagementController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\productmanagementController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\productmanagementController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-01 07:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-01 07:30:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "modal/producMnagementModal.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modal/producMnagementModal.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('modal/producMnagementModal', [], true)
+ 3 APPPATH\Views\admin\productmanagement\index.php(45): view('modal/producMnagementModal')
+ 4 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\robinfood\\app\\Views\\admin\\productmanagement\\index.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('admin/productmanagement/index', [], true)
+ 7 APPPATH\Controllers\admin\productmanagementController.php(10): view('admin/productmanagement/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\productmanagementController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\productmanagementController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-02-01 07:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-02-01 07:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,40 @@
+INFO - 2026-03-16 09:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 09:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 09:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 09:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 09:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 09:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 09:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-16 09:34:25 --> CodeIgniter\HTTP\Exceptions\HTTPException: 6 : Could not resolve host: api.shipbuddy.in
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: api.shipbuddy.in')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api.shipbuddy.in/v1/shipments/track/SB12345678')
+ 4 APPPATH\Services\ShipbuddyService.php(28): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api.shipbuddy.in/v1/shipments/track/SB12345678', [...])
+ 5 APPPATH\Services\ShipbuddyService.php(40): App\Services\ShipbuddyService->request('shipments/track/SB12345678', 'GET')
+ 6 APPPATH\Controllers\frond\ProductTrackingController.php(26): App\Services\ShipbuddyService->trackShipment('SB12345678')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\frond\ProductTrackingController->trackOrder()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frond\ProductTrackingController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-03-16 09:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 09:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-16 09:40:52 --> CodeIgniter\HTTP\Exceptions\HTTPException: 6 : Could not resolve host: api.shipbuddy.in
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: api.shipbuddy.in')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api.shipbuddy.in/v1/shipments/track/SB12345678')
+ 4 APPPATH\Services\ShipbuddyService.php(28): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api.shipbuddy.in/v1/shipments/track/SB12345678', [...])
+ 5 APPPATH\Services\ShipbuddyService.php(40): App\Services\ShipbuddyService->request('shipments/track/SB12345678', 'GET')
+ 6 APPPATH\Controllers\frond\ProductTrackingController.php(26): App\Services\ShipbuddyService->trackShipment('SB12345678')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\frond\ProductTrackingController->trackOrder()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\frond\ProductTrackingController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-03-16 09:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 09:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 09:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 09:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 09:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 10:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-03-16 10:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

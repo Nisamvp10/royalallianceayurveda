@@ -1,0 +1,1263 @@
+INFO - 2025-07-15 03:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 03:55:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 3 APPPATH\Controllers\admin\AuthController.php(34): view('frontend/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 03:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 03:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 04:17:42 --> ErrorException: Attempt to read property "total_quantity" on string
+in APPPATH\Views\frontend\dashboard.php on line 48.
+ 1 APPPATH\Views\frontend\dashboard.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "total_quantity" on string', 'D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php', 48)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 5 APPPATH\Controllers\admin\AuthController.php(39): view('frontend/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 04:18:09 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\frontend\dashboard.php on line 48.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 4 APPPATH\Controllers\admin\AuthController.php(39): view('frontend/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 04:18:10 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\frontend\dashboard.php on line 48.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 4 APPPATH\Controllers\admin\AuthController.php(39): view('frontend/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 04:18:11 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\frontend\dashboard.php on line 48.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 4 APPPATH\Controllers\admin\AuthController.php(39): view('frontend/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 04:19:01 --> ErrorException: Undefined variable $pendingTasks
+in APPPATH\Views\frontend\dashboard.php on line 342.
+ 1 APPPATH\Views\frontend\dashboard.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingTasks', 'D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php', 342)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 5 APPPATH\Controllers\admin\AuthController.php(39): view('frontend/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 04:19:01 --> ErrorException: Undefined variable $pendingTasks
+in APPPATH\Views\frontend\dashboard.php on line 342.
+ 1 APPPATH\Views\frontend\dashboard.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingTasks', 'D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php', 342)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 5 APPPATH\Controllers\admin\AuthController.php(39): view('frontend/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 04:19:02 --> ErrorException: Undefined variable $pendingTasks
+in APPPATH\Views\frontend\dashboard.php on line 342.
+ 1 APPPATH\Views\frontend\dashboard.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingTasks', 'D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php', 342)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 5 APPPATH\Controllers\admin\AuthController.php(39): view('frontend/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-15 04:32:30 --> mysqli_sql_exception: Table 'pexlalabs_nfc.product' doesn't exist in D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`ti...', 0)
+#1 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`ti...')
+#2 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`ti...')
+#3 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`ti...', Array, false)
+#4 D:\xamp\htdocs\pexlalabs\nfc\app\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\pexlalabs\nfc\app\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+#6 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#7 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#8 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\pexlalabs\nfc\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-15 04:32:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'pexlalabs_nfc.product' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `product` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 2 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'pexlalabs_nfc.product' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `product` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `product` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `product` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 4 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:30 --> [Caused by] mysqli_sql_exception: Table 'pexlalabs_nfc.product' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`title`
+FROM `product` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `product` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `product` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `product` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 5 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-15 04:32:45 --> mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause' in D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`ti...', 0)
+#1 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`ti...')
+#2 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`ti...')
+#3 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`ti...', Array, false)
+#4 D:\xamp\htdocs\pexlalabs\nfc\app\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\pexlalabs\nfc\app\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+#6 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#7 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#8 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\pexlalabs\nfc\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-15 04:32:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 2 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 4 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:45 --> [Caused by] mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 5 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-15 04:32:46 --> mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause' in D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`ti...', 0)
+#1 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`ti...')
+#2 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`ti...')
+#3 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`ti...', Array, false)
+#4 D:\xamp\htdocs\pexlalabs\nfc\app\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\pexlalabs\nfc\app\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+#6 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#7 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#8 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\pexlalabs\nfc\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-15 04:32:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 2 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 4 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:46 --> [Caused by] mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 5 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-15 04:32:46 --> mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause' in D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`ti...', 0)
+#1 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`ti...')
+#2 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`ti...')
+#3 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`ti...', Array, false)
+#4 D:\xamp\htdocs\pexlalabs\nfc\app\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\pexlalabs\nfc\app\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+#6 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#7 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#8 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\pexlalabs\nfc\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-15 04:32:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 2 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 4 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:46 --> [Caused by] mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 5 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-15 04:32:47 --> mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause' in D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`ti...', 0)
+#1 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`ti...')
+#2 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`ti...')
+#3 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`ti...', Array, false)
+#4 D:\xamp\htdocs\pexlalabs\nfc\app\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\pexlalabs\nfc\app\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+#6 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#7 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#8 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\pexlalabs\nfc\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-15 04:32:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 2 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 4 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:47 --> [Caused by] mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 5 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-15 04:32:47 --> mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause' in D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`ti...', 0)
+#1 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`ti...')
+#2 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`ti...')
+#3 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`ti...', Array, false)
+#4 D:\xamp\htdocs\pexlalabs\nfc\app\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\pexlalabs\nfc\app\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+#6 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#7 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#8 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\pexlalabs\nfc\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-15 04:32:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 2 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 4 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:47 --> [Caused by] mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 5 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-15 04:32:47 --> mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause' in D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`ti...', 0)
+#1 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`ti...')
+#2 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`ti...')
+#3 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`ti...', Array, false)
+#4 D:\xamp\htdocs\pexlalabs\nfc\app\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\pexlalabs\nfc\app\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+#6 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#7 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#8 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\pexlalabs\nfc\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-15 04:32:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 2 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 4 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:32:47 --> [Caused by] mysqli_sql_exception: Unknown column 'pi.product_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = \'3\'
+AND `pi`.`status` = \'active\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`product_id`
+WHERE `pi`.`client_id` = :pi.client_id:
+AND `pi`.`status` = :pi.status:', [...], false)
+ 5 APPPATH\Models\ProductInfoModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\AuthController.php(42): App\Models\ProductInfoModel->getActiveCards('3')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 04:33:14 --> ErrorException: Array to string conversion
+in APPPATH\Controllers\admin\AuthController.php on line 42.
+ 1 APPPATH\Controllers\admin\AuthController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Controllers\\admin\\AuthController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-15 04:43:42 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\BaseModel.php(990): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xamp\htdocs\pexlalabs\nfc\app\Controllers\admin\ProductInfoController.php(151): CodeIgniter\Model->update('5', Array)
+#8 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\ProductInfoController->save()
+#9 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ProductInfoController))
+#10 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\pexlalabs\nfc\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-07-15 04:43:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `product_info` SET `title` = :title:, `email` = :email:, `phone` = :phone:, `address` = :address:, `about_us` = :about_us:, `whatsapp_link` = :whatsapp_link:, `facebook_link` = :facebook_link:, `website_link` = :website_link:, `twitter_link` = :twitter_link:, `instagaram_link` = :instagaram_link:, `status` = :status:, `primarycolor` = :primarycolor:, `secondarycolor` = :secondarycolor:, `created_at` = :created_at:, `created_by` = :created_by:, `updated_at` = :updated_at:
+WHERE `product_info`.`id` IN :product_info.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(990): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\admin\ProductInfoController.php(151): CodeIgniter\Model->update('5', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\ProductInfoController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ProductInfoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:43:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product_info` SET `title` = \'Shikhil sivaram\', `email` = \'shikhil@gmail.com\', `phone` = \'1800800123\', `address` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `about_us` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `whatsapp_link` = \'\', `facebook_link` = \'\', `website_link` = \'\', `twitter_link` = \'\', `instagaram_link` = \'\', `status` = \'2\', `primarycolor` = \'rgb(143, 36, 36)\', `secondarycolor` = \'rgb(97, 211, 3)\', `created_at` = \'2025-07-15 04:43:42\', `created_by` = \'1\', `updated_at` = \'2025-07-15 04:43:42\'
+WHERE `product_info`.`id` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product_info` SET `title` = \'Shikhil sivaram\', `email` = \'shikhil@gmail.com\', `phone` = \'1800800123\', `address` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `about_us` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `whatsapp_link` = \'\', `facebook_link` = \'\', `website_link` = \'\', `twitter_link` = \'\', `instagaram_link` = \'\', `status` = \'2\', `primarycolor` = \'rgb(143, 36, 36)\', `secondarycolor` = \'rgb(97, 211, 3)\', `created_at` = \'2025-07-15 04:43:42\', `created_by` = \'1\', `updated_at` = \'2025-07-15 04:43:42\'
+WHERE `product_info`.`id` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `product_info` SET `title` = :title:, `email` = :email:, `phone` = :phone:, `address` = :address:, `about_us` = :about_us:, `whatsapp_link` = :whatsapp_link:, `facebook_link` = :facebook_link:, `website_link` = :website_link:, `twitter_link` = :twitter_link:, `instagaram_link` = :instagaram_link:, `status` = :status:, `primarycolor` = :primarycolor:, `secondarycolor` = :secondarycolor:, `created_at` = :created_at:, `created_by` = :created_by:, `updated_at` = :updated_at:
+WHERE `product_info`.`id` IN :product_info.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(990): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\admin\ProductInfoController.php(151): CodeIgniter\Model->update('5', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\ProductInfoController->save()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ProductInfoController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 04:43:42 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `product_info` SET `title` = \'Shikhil sivaram\', `email` = \'shikhil@gmail.com\', `phone` = \'1800800123\', `address` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `about_us` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `whatsapp_link` = \'\', `facebook_link` = \'\', `website_link` = \'\', `twitter_link` = \'\', `instagaram_link` = \'\', `status` = \'2\', `primarycolor` = \'rgb(143, 36, 36)\', `secondarycolor` = \'rgb(97, 211, 3)\', `created_at` = \'2025-07-15 04:43:42\', `created_by` = \'1\', `updated_at` = \'2025-07-15 04:43:42\'
+WHERE `product_info`.`id` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product_info` SET `title` = \'Shikhil sivaram\', `email` = \'shikhil@gmail.com\', `phone` = \'1800800123\', `address` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `about_us` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `whatsapp_link` = \'\', `facebook_link` = \'\', `website_link` = \'\', `twitter_link` = \'\', `instagaram_link` = \'\', `status` = \'2\', `primarycolor` = \'rgb(143, 36, 36)\', `secondarycolor` = \'rgb(97, 211, 3)\', `created_at` = \'2025-07-15 04:43:42\', `created_by` = \'1\', `updated_at` = \'2025-07-15 04:43:42\'
+WHERE `product_info`.`id` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product_info` SET `title` = \'Shikhil sivaram\', `email` = \'shikhil@gmail.com\', `phone` = \'1800800123\', `address` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `about_us` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `whatsapp_link` = \'\', `facebook_link` = \'\', `website_link` = \'\', `twitter_link` = \'\', `instagaram_link` = \'\', `status` = \'2\', `primarycolor` = \'rgb(143, 36, 36)\', `secondarycolor` = \'rgb(97, 211, 3)\', `created_at` = \'2025-07-15 04:43:42\', `created_by` = \'1\', `updated_at` = \'2025-07-15 04:43:42\'
+WHERE `product_info`.`id` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `product_info` SET `title` = :title:, `email` = :email:, `phone` = :phone:, `address` = :address:, `about_us` = :about_us:, `whatsapp_link` = :whatsapp_link:, `facebook_link` = :facebook_link:, `website_link` = :website_link:, `twitter_link` = :twitter_link:, `instagaram_link` = :instagaram_link:, `status` = :status:, `primarycolor` = :primarycolor:, `secondarycolor` = :secondarycolor:, `created_at` = :created_at:, `created_by` = :created_by:, `updated_at` = :updated_at:
+WHERE `product_info`.`id` IN :product_info.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(990): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\admin\ProductInfoController.php(151): CodeIgniter\Model->update('5', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\ProductInfoController->save()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ProductInfoController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 04:44:58 --> ErrorException: Undefined variable $activeCards
+in APPPATH\Views\frontend\dashboard.php on line 67.
+ 1 APPPATH\Views\frontend\dashboard.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activeCards', 'D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php', 67)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 5 APPPATH\Controllers\admin\AuthController.php(44): view('frontend/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 04:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 04:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 05:51:21 --> ErrorException: Undefined variable $ard
+in APPPATH\Views\frontend\dashboard.php on line 117.
+ 1 APPPATH\Views\frontend\dashboard.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ard', 'D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php', 117)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 5 APPPATH\Controllers\admin\AuthController.php(46): view('frontend/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 05:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 05:51:48 --> ErrorException: Undefined array key "slug"
+in APPPATH\Views\frontend\dashboard.php on line 127.
+ 1 APPPATH\Views\frontend\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 5 APPPATH\Controllers\admin\AuthController.php(46): view('frontend/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 05:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-15 05:52:18 --> mysqli_sql_exception: Unknown column 'pi.quantity' in 'field list' in D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`ti...', 0)
+#1 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`ti...')
+#2 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`ti...')
+#3 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`ti...', Array, false)
+#4 D:\xamp\htdocs\pexlalabs\nfc\app\Models\ProductInfoModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\pexlalabs\nfc\app\Controllers\admin\AuthController.php(43): App\Models\ProductInfoModel->getMycards('3')
+#6 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#7 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#8 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\pexlalabs\nfc\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-07-15 05:52:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.quantity' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`, `pi`.`slug`, `pi`.`status`, `pi`.`quantity`, `pi`.`created_at`, `pi`.`logo`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`client_id`
+WHERE `p`.`client_id` = :p.client_id:', [...], false)
+ 2 APPPATH\Models\ProductInfoModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admin\AuthController.php(43): App\Models\ProductInfoModel->getMycards('3')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 05:52:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pi.quantity' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`, `pi`.`slug`, `pi`.`status`, `pi`.`quantity`, `pi`.`created_at`, `pi`.`logo`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`client_id`
+WHERE `p`.`client_id` = \'3\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`, `pi`.`slug`, `pi`.`status`, `pi`.`quantity`, `pi`.`created_at`, `pi`.`logo`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`client_id`
+WHERE `p`.`client_id` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`, `pi`.`slug`, `pi`.`status`, `pi`.`quantity`, `pi`.`created_at`, `pi`.`logo`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`client_id`
+WHERE `p`.`client_id` = :p.client_id:', [...], false)
+ 4 APPPATH\Models\ProductInfoModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admin\AuthController.php(43): App\Models\ProductInfoModel->getMycards('3')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 05:52:18 --> [Caused by] mysqli_sql_exception: Unknown column 'pi.quantity' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pi`.`title`, `pi`.`slug`, `pi`.`status`, `pi`.`quantity`, `pi`.`created_at`, `pi`.`logo`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`client_id`
+WHERE `p`.`client_id` = \'3\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pi`.`title`, `pi`.`slug`, `pi`.`status`, `pi`.`quantity`, `pi`.`created_at`, `pi`.`logo`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`client_id`
+WHERE `p`.`client_id` = \'3\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pi`.`title`, `pi`.`slug`, `pi`.`status`, `pi`.`quantity`, `pi`.`created_at`, `pi`.`logo`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`client_id`
+WHERE `p`.`client_id` = \'3\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pi`.`title`, `pi`.`slug`, `pi`.`status`, `pi`.`quantity`, `pi`.`created_at`, `pi`.`logo`
+FROM `products` as `p`
+JOIN `product_info` as `pi` ON `p`.`id` = `pi`.`client_id`
+WHERE `p`.`client_id` = :p.client_id:', [...], false)
+ 5 APPPATH\Models\ProductInfoModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\AuthController.php(43): App\Models\ProductInfoModel->getMycards('3')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 05:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 05:52:35 --> ErrorException: Undefined array key "quantity"
+in APPPATH\Views\frontend\dashboard.php on line 133.
+ 1 APPPATH\Views\frontend\dashboard.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "quantity"', 'D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php', 133)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 5 APPPATH\Controllers\admin\AuthController.php(46): view('frontend/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 05:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 05:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 06:02:27 --> TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given
+in APPPATH\Views\frontend\dashboard.php on line 114.
+ 1 APPPATH\Views\frontend\dashboard.php(114): strtotime('Y-m-d', '2025-06-30 11:28:11')
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\pexlalabs\\nfc\\app\\Views\\frontend\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/dashboard', [], true)
+ 5 APPPATH\Controllers\admin\AuthController.php(46): view('frontend/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 06:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-15 06:27:59 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "'.base_url('card"
+in SYSTEMPATH\Router\Router.php on line 704.
+ 1 SYSTEMPATH\Router\Router.php(195): CodeIgniter\Router\Router->checkDisallowedChars('\'.base_url(\'card/\').${card.slug}')
+ 2 SYSTEMPATH\CodeIgniter.php(825): CodeIgniter\Router\Router->handle('\'.base_url(\'card/\').${card.slug}')
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 06:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-15 06:37:10 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\BaseModel.php(990): CodeIgniter\Model->doUpdate(Array, Array)
+#6 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\Model.php(812): CodeIgniter\BaseModel->update(Array, Array)
+#7 D:\xamp\htdocs\pexlalabs\nfc\app\Controllers\admin\ProductInfoController.php(157): CodeIgniter\Model->update('5', Array)
+#8 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\ProductInfoController->save()
+#9 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ProductInfoController))
+#10 D:\xamp\htdocs\pexlalabs\nfc\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xamp\htdocs\pexlalabs\nfc\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-07-15 06:37:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `product_info` SET `title` = :title:, `email` = :email:, `phone` = :phone:, `address` = :address:, `about_us` = :about_us:, `whatsapp_link` = :whatsapp_link:, `facebook_link` = :facebook_link:, `website_link` = :website_link:, `twitter_link` = :twitter_link:, `instagaram_link` = :instagaram_link:, `status` = :status:, `primarycolor` = :primarycolor:, `secondarycolor` = :secondarycolor:, `created_at` = :created_at:, `created_by` = :created_by:, `updated_at` = :updated_at:
+WHERE `product_info`.`id` IN :product_info.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(990): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\admin\ProductInfoController.php(157): CodeIgniter\Model->update('5', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\ProductInfoController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ProductInfoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 06:37:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product_info` SET `title` = \'Shikhil sivaram\', `email` = \'shikhil@gmail.com\', `phone` = \'1800800123\', `address` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `about_us` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `whatsapp_link` = \'https://wa.me/917403312120\', `facebook_link` = \'\', `website_link` = \'\', `twitter_link` = \'\', `instagaram_link` = \'\', `status` = NULL, `primarycolor` = NULL, `secondarycolor` = NULL, `created_at` = \'2025-07-15 06:37:10\', `created_by` = \'3\', `updated_at` = \'2025-07-15 06:37:10\'
+WHERE `product_info`.`id` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product_info` SET `title` = \'Shikhil sivaram\', `email` = \'shikhil@gmail.com\', `phone` = \'1800800123\', `address` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `about_us` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `whatsapp_link` = \'https://wa.me/917403312120\', `facebook_link` = \'\', `website_link` = \'\', `twitter_link` = \'\', `instagaram_link` = \'\', `status` = NULL, `primarycolor` = NULL, `secondarycolor` = NULL, `created_at` = \'2025-07-15 06:37:10\', `created_by` = \'3\', `updated_at` = \'2025-07-15 06:37:10\'
+WHERE `product_info`.`id` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `product_info` SET `title` = :title:, `email` = :email:, `phone` = :phone:, `address` = :address:, `about_us` = :about_us:, `whatsapp_link` = :whatsapp_link:, `facebook_link` = :facebook_link:, `website_link` = :website_link:, `twitter_link` = :twitter_link:, `instagaram_link` = :instagaram_link:, `status` = :status:, `primarycolor` = :primarycolor:, `secondarycolor` = :secondarycolor:, `created_at` = :created_at:, `created_by` = :created_by:, `updated_at` = :updated_at:
+WHERE `product_info`.`id` IN :product_info.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(990): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\admin\ProductInfoController.php(157): CodeIgniter\Model->update('5', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\ProductInfoController->save()
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ProductInfoController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-15 06:37:10 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `product_info` SET `title` = \'Shikhil sivaram\', `email` = \'shikhil@gmail.com\', `phone` = \'1800800123\', `address` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `about_us` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `whatsapp_link` = \'https://wa.me/917403312120\', `facebook_link` = \'\', `website_link` = \'\', `twitter_link` = \'\', `instagaram_link` = \'\', `status` = NULL, `primarycolor` = NULL, `secondarycolor` = NULL, `created_at` = \'2025-07-15 06:37:10\', `created_by` = \'3\', `updated_at` = \'2025-07-15 06:37:10\'
+WHERE `product_info`.`id` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product_info` SET `title` = \'Shikhil sivaram\', `email` = \'shikhil@gmail.com\', `phone` = \'1800800123\', `address` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `about_us` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `whatsapp_link` = \'https://wa.me/917403312120\', `facebook_link` = \'\', `website_link` = \'\', `twitter_link` = \'\', `instagaram_link` = \'\', `status` = NULL, `primarycolor` = NULL, `secondarycolor` = NULL, `created_at` = \'2025-07-15 06:37:10\', `created_by` = \'3\', `updated_at` = \'2025-07-15 06:37:10\'
+WHERE `product_info`.`id` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product_info` SET `title` = \'Shikhil sivaram\', `email` = \'shikhil@gmail.com\', `phone` = \'1800800123\', `address` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `about_us` = \'Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.\', `whatsapp_link` = \'https://wa.me/917403312120\', `facebook_link` = \'\', `website_link` = \'\', `twitter_link` = \'\', `instagaram_link` = \'\', `status` = NULL, `primarycolor` = NULL, `secondarycolor` = NULL, `created_at` = \'2025-07-15 06:37:10\', `created_by` = \'3\', `updated_at` = \'2025-07-15 06:37:10\'
+WHERE `product_info`.`id` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `product_info` SET `title` = :title:, `email` = :email:, `phone` = :phone:, `address` = :address:, `about_us` = :about_us:, `whatsapp_link` = :whatsapp_link:, `facebook_link` = :facebook_link:, `website_link` = :website_link:, `twitter_link` = :twitter_link:, `instagaram_link` = :instagaram_link:, `status` = :status:, `primarycolor` = :primarycolor:, `secondarycolor` = :secondarycolor:, `created_at` = :created_at:, `created_by` = :created_by:, `updated_at` = :updated_at:
+WHERE `product_info`.`id` IN :product_info.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(990): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(812): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\admin\ProductInfoController.php(157): CodeIgniter\Model->update('5', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\ProductInfoController->save()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ProductInfoController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-15 06:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 06:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

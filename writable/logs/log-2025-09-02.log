@@ -1,0 +1,142 @@
+INFO - 2025-09-02 08:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-02 08:41:57 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xamp\\htdocs\\...', 185)
+#1 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-84.hosting....', 'sanainventory-3...', '8cpj2idnup', 'sanainventory-3...', 3306, '', 0)
+#2 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#5 D:\xamp\htdocs\sanafreshuk\inventory\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xamp\htdocs\sanafreshuk\inventory\app\Views\template\auth\login.php(18): getappdata('applogo')
+#7 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(228): include('D:\\xamp\\htdocs\\...')
+#8 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Common.php(1178): CodeIgniter\View\View->render('template/auth/l...', Array, true)
+#10 D:\xamp\htdocs\sanafreshuk\inventory\app\Controllers\admin\AuthController.php(31): view('template/auth/l...')
+#11 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#12 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#13 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\xamp\htdocs\sanafreshuk\inventory\index.php(79): CodeIgniter\CodeIgniter->run()
+#15 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-84.hosting....', 'sanainventory-3...', '8cpj2idnup', 'sanainventory-3...', 3306, '', 0)
+#1 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 D:\xamp\htdocs\sanafreshuk\inventory\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\sanafreshuk\inventory\app\Views\template\auth\login.php(18): getappdata('applogo')
+#6 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(228): include('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Common.php(1178): CodeIgniter\View\View->render('template/auth/l...', Array, true)
+#9 D:\xamp\htdocs\sanafreshuk\inventory\app\Controllers\admin\AuthController.php(31): view('template/auth/l...')
+#10 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#11 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#12 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xamp\htdocs\sanafreshuk\inventory\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#3 D:\xamp\htdocs\sanafreshuk\inventory\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\sanafreshuk\inventory\app\Views\template\auth\login.php(18): getappdata('applogo')
+#5 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(228): include('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Common.php(1178): CodeIgniter\View\View->render('template/auth/l...', Array, true)
+#8 D:\xamp\htdocs\sanafreshuk\inventory\app\Controllers\admin\AuthController.php(31): view('template/auth/l...')
+#9 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#10 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#11 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xamp\htdocs\sanafreshuk\inventory\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-09-02 08:41:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `app_settings`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Views\template\auth\login.php(18): getappdata('applogo')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\sanafreshuk\\inventory\\app\\Views\\template\\auth\\login.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template/auth/login', [], true)
+ 8 APPPATH\Controllers\admin\AuthController.php(31): view('template/auth/login')
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-09-02 09:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-02 09:28:45 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'D:\\xamp\\htdocs\\...', 185)
+#1 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-84.hosting....', 'sanainventory-3...', '8cpj2idnup', 'sanainventory-3...', 3306, '', 0)
+#2 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#5 D:\xamp\htdocs\sanafreshuk\inventory\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\xamp\htdocs\sanafreshuk\inventory\app\Views\template\auth\login.php(18): getappdata('applogo')
+#7 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(228): include('D:\\xamp\\htdocs\\...')
+#8 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Common.php(1178): CodeIgniter\View\View->render('template/auth/l...', Array, true)
+#10 D:\xamp\htdocs\sanafreshuk\inventory\app\Controllers\admin\AuthController.php(31): view('template/auth/l...')
+#11 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#12 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#13 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\xamp\htdocs\sanafreshuk\inventory\index.php(79): CodeIgniter\CodeIgniter->run()
+#15 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('sdb-84.hosting....', 'sanainventory-3...', '8cpj2idnup', 'sanainventory-3...', 3306, '', 0)
+#1 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#4 D:\xamp\htdocs\sanafreshuk\inventory\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\sanafreshuk\inventory\app\Views\template\auth\login.php(18): getappdata('applogo')
+#6 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(228): include('D:\\xamp\\htdocs\\...')
+#7 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Common.php(1178): CodeIgniter\View\View->render('template/auth/l...', Array, true)
+#9 D:\xamp\htdocs\sanafreshuk\inventory\app\Controllers\admin\AuthController.php(31): view('template/auth/l...')
+#10 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#11 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#12 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xamp\htdocs\sanafreshuk\inventory\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`\n...', Array, false)
+#3 D:\xamp\htdocs\sanafreshuk\inventory\app\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xamp\htdocs\sanafreshuk\inventory\app\Views\template\auth\login.php(18): getappdata('applogo')
+#5 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(228): include('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Common.php(1178): CodeIgniter\View\View->render('template/auth/l...', Array, true)
+#8 D:\xamp\htdocs\sanafreshuk\inventory\app\Controllers\admin\AuthController.php(31): view('template/auth/l...')
+#9 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+#10 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+#11 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xamp\htdocs\sanafreshuk\inventory\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-09-02 09:28:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: No such host is known. 
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `value`
+FROM `app_settings`
+WHERE `name` = :name:', [...], false)
+ 3 APPPATH\Helpers\settings_helper.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Views\template\auth\login.php(18): getappdata('applogo')
+ 5 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\sanafreshuk\\inventory\\app\\Views\\template\\auth\\login.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('template/auth/login', [], true)
+ 8 APPPATH\Controllers\admin\AuthController.php(31): view('template/auth/login')
+ 9 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\AuthController->login()
+10 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

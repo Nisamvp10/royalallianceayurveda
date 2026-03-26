@@ -1,0 +1,2014 @@
+INFO - 2026-01-25 06:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 06:40:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(97): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 06:40:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(97): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 06:40:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(97): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 06:40:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(97): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 06:40:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(97): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 06:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 06:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 07:24:01 --> ErrorException: Undefined variable $routeView
+in APPPATH\Controllers\ServiceController.php on line 117.
+ 1 APPPATH\Controllers\ServiceController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routeView', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:24:57 --> ErrorException: Undefined variable $routeView
+in APPPATH\Controllers\ServiceController.php on line 117.
+ 1 APPPATH\Controllers\ServiceController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routeView', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:25:00 --> ErrorException: Undefined variable $routeView
+in APPPATH\Controllers\ServiceController.php on line 117.
+ 1 APPPATH\Controllers\ServiceController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routeView', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:25:16 --> ErrorException: compact(): Undefined variable $services
+in APPPATH\Controllers\ServiceController.php on line 118.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $services', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 118)
+ 2 APPPATH\Controllers\ServiceController.php(118): compact('services', 'page')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:25:17 --> ErrorException: compact(): Undefined variable $services
+in APPPATH\Controllers\ServiceController.php on line 118.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $services', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 118)
+ 2 APPPATH\Controllers\ServiceController.php(118): compact('services', 'page')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:25:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(119): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:26:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(119): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:26:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(119): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:26:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(119): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:26:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(119): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:26:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(119): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:27:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(119): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:27:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(119): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:27:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(119): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:27:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(119): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:27:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(119): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:31:02 --> ParseError: Unclosed '{' on line 7
+in APPPATH\Controllers\ServiceController.php on line 127.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ServiceController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ServiceController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\ServiceController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 07:42:50 --> mysqli_sql_exception: Table 'drram.categoories' doesn't exist in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 07:42:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'drram.categoories' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categoories` as `g` ON `g`.`id` = `s`.`category_id`
+WHERE `g`.`id` = :g.id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:42:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'drram.categoories' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categoories` as `g` ON `g`.`id` = `s`.`category_id`
+WHERE `g`.`id` = \'1\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categoories` as `g` ON `g`.`id` = `s`.`category_id`
+WHERE `g`.`id` = \'1\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categoories` as `g` ON `g`.`id` = `s`.`category_id`
+WHERE `g`.`id` = :g.id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:42:50 --> [Caused by] mysqli_sql_exception: Table 'drram.categoories' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categoories` as `g` ON `g`.`id` = `s`.`category_id`
+WHERE `g`.`id` = \'1\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categoories` as `g` ON `g`.`id` = `s`.`category_id`
+WHERE `g`.`id` = \'1\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categoories` as `g` ON `g`.`id` = `s`.`category_id`
+WHERE `g`.`id` = \'1\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categoories` as `g` ON `g`.`id` = `s`.`category_id`
+WHERE `g`.`id` = :g.id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(95): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 07:44:34 --> mysqli_sql_exception: Unknown column 's.sub_category_id' in 'where clause' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 07:44:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 's.sub_category_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`sub_category_id` = :s.sub_category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:44:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 's.sub_category_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`sub_category_id` = \'1\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`sub_category_id` = \'1\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`sub_category_id` = :s.sub_category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:44:34 --> [Caused by] mysqli_sql_exception: Unknown column 's.sub_category_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`sub_category_id` = \'1\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`sub_category_id` = \'1\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`sub_category_id` = \'1\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`sub_category_id` = :s.sub_category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 07:44:36 --> mysqli_sql_exception: Unknown column 's.sub_category_id' in 'where clause' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 07:44:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 's.sub_category_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`sub_category_id` = :s.sub_category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:44:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 's.sub_category_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`sub_category_id` = \'1\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`sub_category_id` = \'1\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`sub_category_id` = :s.sub_category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 07:44:36 --> [Caused by] mysqli_sql_exception: Unknown column 's.sub_category_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`sub_category_id` = \'1\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`sub_category_id` = \'1\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`sub_category_id` = \'1\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`sub_category_id` = :s.sub_category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 07:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 07:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 10:14:02 --> ErrorException: Undefined property: stdClass::$sub_category
+in APPPATH\Controllers\ServiceController.php on line 54.
+ 1 APPPATH\Controllers\ServiceController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$sub_category', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:14:35 --> mysqli_sql_exception: Unknown column 's.sub_categoty' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:14:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 's.sub_categoty' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_categoty`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:14:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 's.sub_categoty' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_categoty`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_categoty`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_categoty`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:14:35 --> [Caused by] mysqli_sql_exception: Unknown column 's.sub_categoty' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_categoty`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_categoty`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_categoty`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_categoty`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:15:20 --> ErrorException: Undefined property: stdClass::$category
+in APPPATH\Controllers\ServiceController.php on line 62.
+ 1 APPPATH\Controllers\ServiceController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:15:55 --> ErrorException: Undefined property: stdClass::$category
+in APPPATH\Controllers\ServiceController.php on line 62.
+ 1 APPPATH\Controllers\ServiceController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:15:56 --> ErrorException: Undefined property: stdClass::$category
+in APPPATH\Controllers\ServiceController.php on line 62.
+ 1 APPPATH\Controllers\ServiceController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:15:56 --> ErrorException: Undefined property: stdClass::$category
+in APPPATH\Controllers\ServiceController.php on line 62.
+ 1 APPPATH\Controllers\ServiceController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:15:57 --> ErrorException: Undefined property: stdClass::$category
+in APPPATH\Controllers\ServiceController.php on line 62.
+ 1 APPPATH\Controllers\ServiceController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:28 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:28 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:29 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:29 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:29 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:29 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:30 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:30 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:51 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:51 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:52 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:52 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:52 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:52 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:53 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:53 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:53 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:53 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:53 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:53 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:53 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:53 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-25 10:16:53 --> mysqli_sql_exception: Unknown column 'g.category' in 'field list' in D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`...', 0)
+#1 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`...')
+#2 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`...')
+#3 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`...', Array, false)
+#4 D:\xamp\htdocs\dr\app\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\dr\app\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+#6 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+#7 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#8 D:\xamp\htdocs\dr\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\dr\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2026-01-25 10:16:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 2 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 4 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:16:53 --> [Caused by] mysqli_sql_exception: Unknown column 'g.category' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = \'7\'
+AND `s`.`status` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id`, `s`.`slug`, `s`.`title`, `s`.`short_note`, `s`.`image`, `s`.`sub_category`, `g`.`category`
+FROM `services` as `s`
+LEFT JOIN `categories` as `c` ON `c`.`id` = `s`.`category_id`
+WHERE `s`.`category_id` = :s.category_id:
+AND `s`.`status` = :s.status:', [...], false)
+ 5 APPPATH\Models\ServiceModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\ServiceController.php(51): App\Models\ServiceModel->getMysubcategoryItems('7', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:22:18 --> ErrorException: Undefined property: stdClass::$category_id
+in APPPATH\Controllers\ServiceController.php on line 75.
+ 1 APPPATH\Controllers\ServiceController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category_id', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 10:24:17 --> ParseError: Unclosed '{' on line 7
+in APPPATH\Controllers\ServiceController.php on line 146.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ServiceController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ServiceController')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\ServiceController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 10:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 10:40:09 --> ErrorException: Undefined array key "title"
+in APPPATH\Views\frontend\services.php on line 38.
+ 1 APPPATH\Views\frontend\services.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'D:\\xamp\\htdocs\\dr\\app\\Views\\frontend\\services.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\dr\\app\\Views\\frontend\\services.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/services', [], true)
+ 5 APPPATH\Controllers\ServiceController.php(145): view('frontend/services', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 10:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 10:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 11:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 11:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 11:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 11:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 11:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 11:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 11:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 11:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 16:28:24 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\frontend\services.php on line 54.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/services', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('frontend/services', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('knee')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 16:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 16:40:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('index.html')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 16:40:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(20): view('frontend/service', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 16:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 16:46:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('trauma')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 16:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 16:50:51 --> ErrorException: Undefined property: App\Controllers\HomeController::$serviceModel
+in APPPATH\Controllers\HomeController.php on line 36.
+ 1 APPPATH\Controllers\HomeController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\HomeController::$serviceModel', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\HomeController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 16:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 16:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 16:59:56 --> ErrorException: Undefined variable $idx
+in APPPATH\Views\frontend\index.php on line 170.
+ 1 APPPATH\Views\frontend\index.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idx', 'D:\\xamp\\htdocs\\dr\\app\\Views\\frontend\\index.php', 170)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\dr\\app\\Views\\frontend\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH\Controllers\HomeController.php(39): view('frontend/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 17:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 17:11:49 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\frontend\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/index', [], true)
+ 4 APPPATH\Controllers\HomeController.php(38): view('frontend/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 17:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 17:12:18 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\frontend\index.php on line 191.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/index', [], true)
+ 4 APPPATH\Controllers\HomeController.php(38): view('frontend/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 17:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 17:14:07 --> ErrorException: Undefined property: stdClass::$category
+in APPPATH\Views\frontend\index.php on line 182.
+ 1 APPPATH\Views\frontend\index.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category', 'D:\\xamp\\htdocs\\dr\\app\\Views\\frontend\\index.php', 182)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\dr\\app\\Views\\frontend\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/index', [], true)
+ 5 APPPATH\Controllers\HomeController.php(38): view('frontend/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 17:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 17:19:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('orthobiologics-regenerative-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:23:17 --> ErrorException: compact(): Undefined variable $services
+in APPPATH\Controllers\ServiceController.php on line 79.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'compact(): Undefined variable $services', 'D:\\xamp\\htdocs\\dr\\app\\Controllers\\ServiceController.php', 79)
+ 2 APPPATH\Controllers\ServiceController.php(79): compact('services', 'page')
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('orthobiologics-regenerative-procedures')
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:23:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(79): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('orthobiologics-regenerative-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:24:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(83): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('orthobiologics-regenerative-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:24:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(83): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('orthobiologics-regenerative-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:24:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('orthobiologics-regenerative-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:24:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('orthobiologics-regenerative-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:24:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('orthobiologics-regenerative-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:25:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('orthobiologics-regenerative-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:25:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('orthobiologics-regenerative-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:25:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('orthobiologics-regenerative-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 17:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 17:25:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:25:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:26:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:26:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:26:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(84): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:26:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(84): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 17:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 17:26:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(84): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:27:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:27:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:27:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(146): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:28:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(149): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:29:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(149): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('hip')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 17:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-25 17:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 17:34:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(77): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('meniscal-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:35:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/service-inner.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/service-inner.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(77): view('frontend/service-inner', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('trauma')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2026-01-25 17:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-25 17:37:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(77): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('meniscal-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:37:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\ServiceController.php(77): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->details('meniscal-procedures')
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-01-25 17:40:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/inc/footerLinks.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/inc/footerLinks.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/inc/footerLinks', [], true)
+ 3 APPPATH\Views\frontend\service-inner.php(591): view('frontend/inc/footerLinks')
+ 4 SYSTEMPATH\View\View.php(228): include('D:\\xamp\\htdocs\\dr\\app\\Views\\frontend\\service-inner.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frontend/service-inner', [], true)
+ 7 APPPATH\Controllers\ServiceController.php(93): view('frontend/service-inner', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\ServiceController->singleDetails('meniscal-procedures')
+ 9 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

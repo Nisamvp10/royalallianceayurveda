@@ -1,0 +1,120 @@
+INFO - 2025-10-02 04:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-02 04:14:57 --> mysqli_sql_exception: Unknown column 'po.product_name' in 'order clause' in D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `po`.`id...', 0)
+#1 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po`.`id...')
+#2 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po`.`id...')
+#3 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id...', Array, false)
+#4 D:\xamp\htdocs\sanafreshuk\inventory\app\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xamp\htdocs\sanafreshuk\inventory\app\Controllers\admin\ReportsController.php(206): App\Models\PurchaseOrderModel->purchaseHistory('', '', '2025-09-01 00:0...', '2025-09-30 23:5...', '', 'po.product_name...')
+#6 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(943): App\Controllers\admin\ReportsController->purchaseCustomReport()
+#7 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ReportsController))
+#8 D:\xamp\htdocs\sanafreshuk\inventory\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xamp\htdocs\sanafreshuk\inventory\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-10-02 04:14:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'po.product_name' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+WHERE `po`.`order_date` >= :po.order_date:
+AND `po`.`order_date` <= :po.order_date.1:
+ORDER BY `po`.`product_name` ASC', [...], false)
+ 2 APPPATH\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\admin\ReportsController.php(206): App\Models\PurchaseOrderModel->purchaseHistory('', '', '2025-09-01 00:00:00', '2025-09-30 23:59:59', '', 'po.product_name ASC')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\ReportsController->purchaseCustomReport()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ReportsController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-02 04:14:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'po.product_name' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+WHERE `po`.`order_date` >= \'2025-09-01 00:00:00\'
+AND `po`.`order_date` <= \'2025-09-30 23:59:59\'
+ORDER BY `po`.`product_name` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+WHERE `po`.`order_date` >= \'2025-09-01 00:00:00\'
+AND `po`.`order_date` <= \'2025-09-30 23:59:59\'
+ORDER BY `po`.`product_name` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+WHERE `po`.`order_date` >= :po.order_date:
+AND `po`.`order_date` <= :po.order_date.1:
+ORDER BY `po`.`product_name` ASC', [...], false)
+ 4 APPPATH\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\admin\ReportsController.php(206): App\Models\PurchaseOrderModel->purchaseHistory('', '', '2025-09-01 00:00:00', '2025-09-30 23:59:59', '', 'po.product_name ASC')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\ReportsController->purchaseCustomReport()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ReportsController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-10-02 04:14:57 --> [Caused by] mysqli_sql_exception: Unknown column 'po.product_name' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+WHERE `po`.`order_date` >= \'2025-09-01 00:00:00\'
+AND `po`.`order_date` <= \'2025-09-30 23:59:59\'
+ORDER BY `po`.`product_name` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+WHERE `po`.`order_date` >= \'2025-09-01 00:00:00\'
+AND `po`.`order_date` <= \'2025-09-30 23:59:59\'
+ORDER BY `po`.`product_name` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+WHERE `po`.`order_date` >= \'2025-09-01 00:00:00\'
+AND `po`.`order_date` <= \'2025-09-30 23:59:59\'
+ORDER BY `po`.`product_name` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `po`.`id`, `po`.`invoice_number`, `po`.`payment_status`, `po`.`order_date`, `po`.`total_amount`, `po`.`note`, `po`.`paid_date`, `po`.`payment_type`, `s`.`supplier_name`, `s`.`id` as `supplierId`, `p`.`product_name`, `p`.`id` as `productId`, `p`.`sku`, `p`.`current_stock`, `poi`.`id` as `pitemId`, `poi`.`price`, `poi`.`quantity`, `poi`.`total`
+FROM `purchase_orders` as `po`
+JOIN `supplier` as `s` ON `po`.`supplier_id` = `s`.`id`
+JOIN `purchase_order_items` as `poi` ON `po`.`id` = `poi`.`purchase_order_id`
+JOIN `products` as `p` ON `poi`.`product_id` = `p`.`id`
+WHERE `po`.`order_date` >= :po.order_date:
+AND `po`.`order_date` <= :po.order_date.1:
+ORDER BY `po`.`product_name` ASC', [...], false)
+ 5 APPPATH\Models\PurchaseOrderModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\admin\ReportsController.php(206): App\Models\PurchaseOrderModel->purchaseHistory('', '', '2025-09-01 00:00:00', '2025-09-30 23:59:59', '', 'po.product_name ASC')
+ 7 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\admin\ReportsController->purchaseCustomReport()
+ 8 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ReportsController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-10-02 04:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-02 04:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
