@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "region"]
+	url = git@github.com:Nisamvp10/robinfood-website.git
+	fetch = +refs/heads/*:refs/remotes/region/*
+[branch "master"]
+	remote = region
+	merge = refs/heads/master
+[remote "origon"]
+	url = git@github.com:Nisamvp10/royalallianceayurveda.git
+	fetch = +refs/heads/*:refs/remotes/origon/*
+[remote "origin"]
+	url = git@github.com:Nisamvp10/royalallianceayurveda.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

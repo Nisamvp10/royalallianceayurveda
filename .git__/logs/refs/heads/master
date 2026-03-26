@@ -1,0 +1,42 @@
+0000000000000000000000000000000000000000 6904e31fb3e145f3c7a056e585b4ec164d5a14fc Nisam Git <nisamvp10@gmail.com> 1771046879 +0530	commit (initial): site
+6904e31fb3e145f3c7a056e585b4ec164d5a14fc 8212735164fded9ebbf3b389f6269548cbe4922e Nisam Git <nisamvp10@gmail.com> 1771047583 +0530	commit: DB
+8212735164fded9ebbf3b389f6269548cbe4922e 09786aec5bd0aef829f303cc82084d8e046c50d4 Nisam Git <nisamvp10@gmail.com> 1771047807 +0530	commit: CategoryModel
+09786aec5bd0aef829f303cc82084d8e046c50d4 0bbf8b53c4f92ff0fe0211c9606a0f46300ad59e Nisam Git <nisamvp10@gmail.com> 1771065599 +0530	commit: index
+0bbf8b53c4f92ff0fe0211c9606a0f46300ad59e ef2c2a4ceacd9839e3b432b032592e8b134cd40f Nisam Git <nisamvp10@gmail.com> 1771066889 +0530	commit: header and contact
+ef2c2a4ceacd9839e3b432b032592e8b134cd40f 097837b11f6e5a8bf5ab10b5c981d2a7e57679d1 Nisam Git <nisamvp10@gmail.com> 1771131129 +0530	commit: productlist
+097837b11f6e5a8bf5ab10b5c981d2a7e57679d1 3f0bca83d9b99b7cd6244f9ac76fca208e80e302 Nisam Git <nisamvp10@gmail.com> 1771131172 +0530	commit: prolist
+3f0bca83d9b99b7cd6244f9ac76fca208e80e302 7b926b8982107f3c29fca671abb182da34c5ca8b Nisam Git <nisamvp10@gmail.com> 1771131752 +0530	commit: home product redirect
+7b926b8982107f3c29fca671abb182da34c5ca8b 71574e3ee0442a1b5349511012c36ac47552d104 Nisam Git <nisamvp10@gmail.com> 1771132278 +0530	commit: terms
+71574e3ee0442a1b5349511012c36ac47552d104 ecb4937c56f5fefac7899b09c42e37c02e3d6929 Nisam Git <nisamvp10@gmail.com> 1771139580 +0530	commit: gateway terms
+ecb4937c56f5fefac7899b09c42e37c02e3d6929 72d76697ee78f41f2da18268839040523e18475b Nisam Git <nisamvp10@gmail.com> 1771140914 +0530	commit: gallery
+72d76697ee78f41f2da18268839040523e18475b b0a7f9dbc5668889ea3e97dc842ccb59e9bd50f1 Nisam Git <nisamvp10@gmail.com> 1771141441 +0530	commit: Gallery-3
+b0a7f9dbc5668889ea3e97dc842ccb59e9bd50f1 fa152ee13533d3897624618718dca21f4826cd1b Nisam Git <nisamvp10@gmail.com> 1771218797 +0530	commit: Offer
+fa152ee13533d3897624618718dca21f4826cd1b 37af8ac30a221a23ac7f2d91eeed397046bdf95f Nisam Git <nisamvp10@gmail.com> 1771218917 +0530	commit: offer page
+37af8ac30a221a23ac7f2d91eeed397046bdf95f 3947162b8eb2a07737d8d2e977ad5d9138340d51 Nisam Git <nisamvp10@gmail.com> 1771495038 +0530	commit: offer
+3947162b8eb2a07737d8d2e977ad5d9138340d51 c560baf2545f15108714972a86381203c9257355 Nisam Git <nisamvp10@gmail.com> 1771495266 +0530	commit: add product
+c560baf2545f15108714972a86381203c9257355 5b57064c5be7fe4f92dc5822a2a6fd0909ad0061 Nisam Git <nisamvp10@gmail.com> 1771495470 +0530	commit: change product title placeholder
+5b57064c5be7fe4f92dc5822a2a6fd0909ad0061 ec0bfdce96775de4f455c92cdeff305c00e1e21a Nisam Git <nisamvp10@gmail.com> 1771496047 +0530	commit: product edit
+ec0bfdce96775de4f455c92cdeff305c00e1e21a 6e3c6cb198c74865c98d7a8b019d75cbde2d333d Nisam Git <nisamvp10@gmail.com> 1771496971 +0530	commit: create investment button
+6e3c6cb198c74865c98d7a8b019d75cbde2d333d 9e9bee87c60bc22998b138eae4bc210fe340c16f Nisam Git <nisamvp10@gmail.com> 1771564057 +0530	commit: product save and update
+9e9bee87c60bc22998b138eae4bc210fe340c16f 21b134a2feacc86859a3526256735dca4de31119 Nisam Git <nisamvp10@gmail.com> 1771748606 +0530	commit: changes1
+21b134a2feacc86859a3526256735dca4de31119 31d57e721aa66b9dbb86e53802e9070f38c37f5b Nisam Git <nisamvp10@gmail.com> 1772012853 +0530	commit: cash on devlivery and inventory
+31d57e721aa66b9dbb86e53802e9070f38c37f5b e5506478977f81752e31cfce119582c8d2283424 Nisam Git <nisamvp10@gmail.com> 1772024621 +0530	commit: dashboard
+e5506478977f81752e31cfce119582c8d2283424 e906239c54831ce74940b3a839729b60dda151b0 Nisam Git <nisamvp10@gmail.com> 1772176071 +0530	commit: coupon code
+e906239c54831ce74940b3a839729b60dda151b0 dacb750ba85c078a375aa6e1e1db711ff81c3afb Nisam Git <nisamvp10@gmail.com> 1772177157 +0530	commit: checkout item cart data empty
+dacb750ba85c078a375aa6e1e1db711ff81c3afb 8043c3786ad5bc0302f654cc0e03123a76f3c4ca Nisam Git <nisamvp10@gmail.com> 1772192263 +0530	commit: tax calculate offer price
+8043c3786ad5bc0302f654cc0e03123a76f3c4ca 1599dcee23612f6d6275b1133d24e77dafacef5a Nisam Git <nisamvp10@gmail.com> 1772965550 +0530	commit: gateway
+1599dcee23612f6d6275b1133d24e77dafacef5a adbb800bc999897e70ef66a654f24b562c3e56c3 Nisam Git <nisamvp10@gmail.com> 1773043400 +0530	commit: urder dashboard
+adbb800bc999897e70ef66a654f24b562c3e56c3 86876ecb11fcfa8222288cc660c0b5a3935d2fec Nisam Git <nisamvp10@gmail.com> 1773043566 +0530	commit: user dashboard
+86876ecb11fcfa8222288cc660c0b5a3935d2fec 2e96cb9a326b5d8e1217069fab1975922c5ef755 Nisam Git <nisamvp10@gmail.com> 1773130369 +0530	commit: my account
+2e96cb9a326b5d8e1217069fab1975922c5ef755 63600a2874dc48f62f92a3ebf35228e06dba3728 Nisam Git <nisamvp10@gmail.com> 1773133454 +0530	commit: index
+63600a2874dc48f62f92a3ebf35228e06dba3728 e79cfd9b2ae60b49852a168305e87d28efb28f83 Nisam Git <nisamvp10@gmail.com> 1773134506 +0530	commit: payment done
+e79cfd9b2ae60b49852a168305e87d28efb28f83 d7f5ded339dea53fb038d1eb5af192097d2202ef Nisam Git <nisamvp10@gmail.com> 1773218048 +0530	commit: forgot password
+d7f5ded339dea53fb038d1eb5af192097d2202ef ad100a407e5ee1b84e1eb0c5bcf93ec7d4fe07c2 Nisam Git <nisamvp10@gmail.com> 1773218545 +0530	commit: message
+ad100a407e5ee1b84e1eb0c5bcf93ec7d4fe07c2 4248c01e4c42177afe72354096e4644751985e33 Nisam Git <nisamvp10@gmail.com> 1773221446 +0530	commit: coupencode
+4248c01e4c42177afe72354096e4644751985e33 654e7b4af55bfc488572ecbf9becbddca4ef391e Nisam Git <nisamvp10@gmail.com> 1773290942 +0530	commit: logo seted
+654e7b4af55bfc488572ecbf9becbddca4ef391e 39b91a257be49228e51f42891e19aeec781efc5a Nisam Git <nisamvp10@gmail.com> 1773634315 +0530	commit: tracking demo
+39b91a257be49228e51f42891e19aeec781efc5a 681ae3243d996e7fcb7ac57f7e859afc3831712b Nisam Git <nisamvp10@gmail.com> 1773717003 +0530	commit: home
+681ae3243d996e7fcb7ac57f7e859afc3831712b 41e85b6d4202a115649fad0182525f67c310e1f2 Nisam Git <nisamvp10@gmail.com> 1773717179 +0530	commit: HOME FOOT
+41e85b6d4202a115649fad0182525f67c310e1f2 4ba3826185ef74b4112473f232b8af1f0b44a006 Nisam Git <nisamvp10@gmail.com> 1773718036 +0530	commit: directors
+4ba3826185ef74b4112473f232b8af1f0b44a006 c924c7b9c15f9692e0ca632e5954c615cc6268cf Nisam Git <nisamvp10@gmail.com> 1773718808 +0530	commit: Contactus
+c924c7b9c15f9692e0ca632e5954c615cc6268cf fdeb0d94063e7df626152c0ae9784b06318f7664 Nisam Git <nisamvp10@gmail.com> 1774497313 +0530	commit: dm test
