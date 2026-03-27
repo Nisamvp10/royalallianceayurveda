@@ -497,7 +497,7 @@ Royal Alliance Ayurveda is a pharmacy offering wide range of Ayurvedic medicines
                         </div>
                         <div class="col-lg-5 col-md-10">
                             <div class="faq__img">
-                                <img src="<?=base_url('public/assets/template/');?>assets/img/faq_img01.jpg" alt="img">
+                                <img src="<?=base_url('public/assets/template/');?>assets/img/abt-royal.jpeg" alt="img">
 
                             </div>
                         </div>
