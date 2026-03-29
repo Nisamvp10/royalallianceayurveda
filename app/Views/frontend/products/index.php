@@ -27,7 +27,8 @@
                                     Sithaswagandhadi Thailam
                                 </h2>
                                 <p class="text"> Cheetah Sithaswagandhadi Thailam is a premium, ayurvedic quality formulation developed by Shankara’s Pharma, Malappuram, and Kerala. </p>
-                                <a href="#" class="tg-btn tg-btn-three">Shop Now</a>
+                                <!-- the button click smoothly scroll to the product section -->
+                                <a href="#product" class="tg-btn tg-btn-three">Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -205,7 +206,7 @@
             </section>
 
 
-                        <section class="product__details-area section-py-150 section-bg">
+                        <section id="product" class="product__details-area section-py-150 section-bg">
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
                         <div class="col-lg-6 col-md-9">
@@ -421,3 +422,17 @@
 
 
 <?= view('frontend/inc/footerLink') ?>
+
+<script>
+    $(document).ready(function() {
+        // Smooth scroll to product section
+        $('.tg-btn-three').on('click', function(e) {
+            e.preventDefault();
+            var target = $(this).attr('href');
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 1000);
+        });
+    });
+</script>
+    

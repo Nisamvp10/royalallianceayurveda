@@ -55,7 +55,7 @@
                                         <div class="slider__content">
                                            
                                             <h2 class="title"><?= $slider->title ?></h2>
-                                            <a href="#" class="tg-btn"> <?= $slider->button_title ?>
+                                            <a href="<?= $slider->url ?? '#' ?>" class="tg-btn"> <?= $slider->button_title ?>
                                                 <span>
                                                     <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M14.5303 6.53033C14.8232 6.23744 14.8232 5.76256 14.5303 5.46967L9.75736 0.696699C9.46447 0.403806 8.98959 0.403806 8.6967 0.696699C8.40381 0.989593 8.40381 1.46447 8.6967 1.75736L12.9393 6L8.6967 10.2426C8.40381 10.5355 8.40381 11.0104 8.6967 11.3033C8.98959 11.5962 9.46447 11.5962 9.75736 11.3033L14.5303 6.53033ZM0 6V6.75H14V6V5.25H0V6Z" fill="currentColor" />
@@ -223,7 +223,7 @@ Royal Alliance Ayurveda is a pharmacy offering wide range of Ayurvedic medicines
                                     Royal Alliance Ayurveda’s product range includes general health supplements, immunity-support products, vitality boosters, and specialized Ayurvedic formulations that formulated from the legacy and mentorship of our Ayurvedic department, Shankara’s pharma, which support men’s wellness and overall health. We, Royal Alliance aim to make traditional Ayurvedic solutions easily accessible with dependable service and timely delivery. Our pharmacy is located in Koottilangadi, Malappuram (Kerala), India and we provide home delivery facilities with safe and solid packages. Royal Alliance Ayurveda also makes sure that the product reaches your doorstep in a few days with a complete covering safe package, so that your privacy is not compromised.
                                 </p>
                                 <div class="about__btn">
-                                    <a href="#" class="tg-btn red-btn">
+                                    <a href="<?= base_url('products') ?>" class="tg-btn red-btn">
                                         Shop Now
                                     
                                         <span>
@@ -233,7 +233,7 @@ Royal Alliance Ayurveda is a pharmacy offering wide range of Ayurvedic medicines
                                             </svg>
                                         </span>
                                     </a>
-                                    <a href="#" class="tg-btn border-btn">
+                                    <a href="<?= base_url('contact') ?>" class="tg-btn border-btn">
                                         Contact Now
                                     
                                         <span>

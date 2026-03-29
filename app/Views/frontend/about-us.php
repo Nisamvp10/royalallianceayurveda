@@ -36,7 +36,7 @@
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-6 col-md-10 order-0 order-lg-2">
                             <div class="about__img">
-                                <img src="<?=base_url('public/assets/template/');?>assets/img/about_img.jpg" alt="img">
+                                <img src="<?=base_url('public/assets/template/');?>assets/img/abt-product.jpeg" alt="img">
                                 <img src="<?=base_url('public/assets/template/');?>assets/img/about_shape.jpg" alt="shape" class="shape">
                             </div>
                         </div>
