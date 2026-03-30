@@ -4198,7 +4198,7 @@ textarea {
 }
 
 .about__list-three li {
-  width: auto;
+  width: 100%;
 }
 
 .about__list-four {

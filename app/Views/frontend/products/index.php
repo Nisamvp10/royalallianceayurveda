@@ -104,7 +104,7 @@
                         <div class="col-lg-8">
                             <div class="section__title text-center white-title mb-60" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                                 <span class="sub-title">TRUSTED SINCE 1980</span>
-                                <h2 class="title">AHerbs that used to Manufacture</h2>
+                                <h2 class="title">HERBS that used to Manufacture</h2>
                             </div>
                         </div>
                     </div>
@@ -435,4 +435,3 @@
         });
     });
 </script>
-    
