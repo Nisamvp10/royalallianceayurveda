@@ -411,7 +411,7 @@ class CheckoutController extends Controller
             "orderData" => [
                 "deliveryType" => "FORWARD",
                 "isDangerousGoods" => "n",
-                "paymentMode" => "cod",
+                "paymentMode" => "prepaid",
                 "length" => 10,
                 "breadth" => 10,
                 "height" => 10,
