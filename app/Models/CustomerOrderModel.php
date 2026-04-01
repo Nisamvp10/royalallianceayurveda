@@ -6,7 +6,7 @@ class CustomerOrderModel extends Model
 {
     protected $table = 'customer_orders';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['user_id', 'order_number', 'gateway_order_id','tax','discount', 'coupen_code_id','address_id','shipping_address', 'sub_total', 'total_amount', 'payment_method', 'payment_status', 'status', 'created_at'];
+    protected $allowedFields = ['user_id', 'order_number', 'gateway_order_id','tax','discount', 'coupen_code_id','address_id','shipping_address','shipping_order_id', 'sub_total', 'total_amount', 'payment_method', 'payment_status', 'status', 'created_at'];
 
     public function salesHistory($searchInput=false,$filter=false,$startDate=false,$endDate=false,$orderId=false,$orderInvoiceId=false) {
         $builder = $this->db->table('customer_orders as co')

@@ -83,7 +83,7 @@ class CheckoutController extends Controller
 
     public function placeOrder() {
         $address_id = $this->request->getPost('address_id');
-        $payment_method = $this->request->getPost('payment_method') ?? 'gateway'; //gateway
+        $payment_method = $this->request->getPost('payment_method') ?? 'gateway'; //cod
         $user = session()->get('user');
         $status = ($user && isset($user['isLoggedIn']) && $user['isLoggedIn'] === true);
         $minimumOrderAmount = getappdata('minimum_order_amount');
@@ -217,28 +217,35 @@ class CheckoutController extends Controller
                     $this->productModel->update( $productManage['product_id'], ['current_stock' => $blanceQty]);
                      $packageList[] = [
                             "name" => $productManage['product_title'],
-                            "qty" => $item['quantity'],
-                            "price" => $item['price'],
+                            "qty" => (int)$item['quantity'],
+                            "price" => (int)$item['price'],
                             "category" => 'General',
                             "sku" => $currentStock['sku'],
-                            "hsnCode" => 1234,//$currentStock['hsn_code']
+                            "hsnCode" => (string) "1234",//$currentStock['hsn_code']
                         ];
                 }
 
                 //payment method COD
                 if($payment_method == 'cod'){
 
-                    $this->customerOrderModel->update($order_id, ['payment_status' => 'unpaid','status' => 'confirmed']); 
+                    //get user details like email and phone \\ is cart_session \\ is user_id
+                    
+                    $user = $this->userModel->where('id', $user['userId'])->first();
+                    $pincode = trim($address->postal_code);
+                    $pincode = trim($address->postal_code); // remove spaces
+                    $pincode = preg_replace('/[^0-9]/', '', $pincode);
+                    $pincode = substr(preg_replace('/\D/', '', $address->postal_code), 0, 6);
                     //shiping address to shipbuddy 
+                
                     $payload = [
                         "orderData" => [
                             "deliveryType" => "FORWARD",
                             "isDangerousGoods" => "n",
-                            "paymentMode" => "paid",
+                            "paymentMode" => "cod",
                             "length" => 10,
                             "breadth" => 10,
                             "height" => 10,
-                            "warehouseName" => "Royal Alliance Ayurveda",
+                            "warehouseName" => "royal alliance ayurveda",
                             "packageCount" => 1,
                             "shippingMode" => "surface",
                             "deadWeight" => 0.5
@@ -246,20 +253,23 @@ class CheckoutController extends Controller
                         "customerAddressList" => [
                             "fullName" => $address->full_name ?? '',
                             "contactNumber" => $address->phone ?? '',
-                            //"email" => $shippingAddress['email'] ?? '',
+                            "email" => $user['email'] ?? '',
                             "alternateNumber" => $address->phone ?? '',
                             "address" => $address->address_line1 ?? '',
                             //"landmark" => $shippingAddress['landmark'] ?? '',
-                            "pincode" => $address->postal_code ?? '',
+                            //"pincode" => $address->postal_code ?? '',
+                            "pincode" => (int)$pincode, // ✅ important
                             "city" => $address->city ?? '',
                             "state" => $address->state ?? '',
                             "country" => $address->country ?? ''
                         ],
                         "packageList" => $packageList
                     ];
-                     
-                    $response = $this->shipbuddyService->request('orders/create', 'POST', $payload);
-                  
+                    //$response = $this->shipbuddyService->request('orders/create', 'POST', $payload);
+                    $res = $this->shipbuddyService->request('orderApi/createOrder', 'POST', $payload);
+                    $shipping_order_id = $res['response']['data'][0]['orderId'];
+                    $this->customerOrderModel->update($order_id, ['payment_status' => 'unpaid','status' => 'confirmed','shipping_order_id'=>$shipping_order_id]); 
+
                     //clear cart 
                     $this->cart->deleteCart($cart['id']);
                     //mail template 
@@ -296,6 +306,16 @@ class CheckoutController extends Controller
     //verify 
     public function verifyPayment()
     {
+
+        // $order_id = 'order_SYCisFoZwVIOXq';
+        //   $order = $this->customerOrderModel->where('gateway_order_id',$order_id)->first();
+        //   $shippingAddress = json_decode($order['shipping_address'], true);
+        //     echo "<pre>";
+        //     print_r($shippingAddress);
+        //     echo "</pre>";
+        //     echo   $pincode = trim($shippingAddress['post']);
+
+        //   exit();
 
         $keyId = env('payment.keyId');
         $keySecret = env('payment.keySecret');
@@ -345,7 +365,6 @@ class CheckoutController extends Controller
 
         /* PAYMENT SUCCESS */
 
-        $this->customerOrderModel->where('gateway_order_id',$order_id)->set(['payment_status'=>'paid','status'=>'confirmed'])->update();
 
 
         $orderItems = $this->customerOrderItemsModel->where('customer_order_id',$order['id'])->findAll();
@@ -374,23 +393,29 @@ class CheckoutController extends Controller
                 $currentStock = $this->productModel->where('id',$productManage['product_id'])->first();
                 $packageList[] = [
                     "name" => $productManage['product_title'],
-                    "qty" => $item['quantity'],
-                    "price" => $item['price'],
+                    "qty" => (int)$item['qty'],
+                    "price" => (int)$item['price'],
                     "category" => 'General',
                     "sku" => $currentStock['sku'],
-                    "hsnCode" => 123,//$currentStock['hsn_code']
+                    "hsnCode" => (string) "123",//$currentStock['hsn_code']
                 ];
             }
         }
+        $user = $this->userModel->where('id', $order['user_id'])->first();
+        $pincode = trim($shippingAddress['post']);
+        $pincode = trim($shippingAddress['post']); // remove spaces
+        $pincode = preg_replace('/[^0-9]/', '', $pincode);
+        $pincode = substr(preg_replace('/\D/', '', $shippingAddress['post']), 0, 6);
+
         $payload = [
             "orderData" => [
                 "deliveryType" => "FORWARD",
                 "isDangerousGoods" => "n",
-                "paymentMode" => "paid",
+                "paymentMode" => "cod",
                 "length" => 10,
                 "breadth" => 10,
                 "height" => 10,
-                "warehouseName" => "Royal Alliance Ayurveda",
+                "warehouseName" => "royal alliance ayurveda",
                 "packageCount" => 1,
                 "shippingMode" => "surface",
                 "deadWeight" => 0.5
@@ -398,19 +423,19 @@ class CheckoutController extends Controller
             "customerAddressList" => [
                 "fullName" => $shippingAddress['name'] ?? '',
                 "contactNumber" => $shippingAddress['phone'] ?? '',
-                //"email" => $shippingAddress['email'] ?? '',
+                "email" => $user['email'] ?? '',
                 "alternateNumber" => $shippingAddress['phone'] ?? '',
                 "address" => $shippingAddress['address'] ?? '',
-                //"landmark" => $shippingAddress['landmark'] ?? '',
-                "pincode" => $shippingAddress['post'] ?? '',
+                "pincode" => (int)$pincode, 
                 "city" => $shippingAddress['city'] ?? '',
                 "state" => $shippingAddress['state'] ?? '',
                 "country" => $shippingAddress['country'] ?? ''
             ],
             "packageList" => $packageList
         ];
-        $response = $this->shipbuddyService->request('orders/create', 'POST', $payload);
-
+        $res = $this->shipbuddyService->request('orderApi/createOrder', 'POST', $payload);
+        $shipping_order_id = $res['response']['data'][0]['orderId'];
+        $this->customerOrderModel->where('gateway_order_id',$order_id)->set(['payment_status'=>'paid','status'=>'confirmed','shipping_order_id'=>$shipping_order_id])->update();
         /* DELETE CART */
 
         $this->cart->deleteCart($cart['id']);

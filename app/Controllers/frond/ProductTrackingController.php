@@ -18,19 +18,58 @@ class ProductTrackingController extends BaseController
         return view('frontend/product-tracking', compact('page'));
     }
 
-   public function trackOrder()
+     public function trackOrder()
     {
-        $trackingId = $this->request->getPost('trackingNumber');
+        $orderId = 'ORD' . time();
 
-        if(!$trackingId){
-            return $this->response->setJSON([
-                'success' => false,
-                'message' => 'Tracking number required'
-            ]);
-        }
+        $payload = [
+            "orderData" => [
+                "deliveryType" => "FORWARD",
+                "isDangerousGoods" => "n",
+                "paymentMode" => "cod",
+                "length" => 10,
+                "breadth" => 10,
+                "height" => 10,
+                "warehouseName" => "royal alliance ayurveda",
+                "packageCount" => 1,
+                "shippingMode" => "surface",
+                "deadWeight" => 0.5
+            ],
+            "customerAddressList" => [
+                 "fullName" => "Test User",
+                "contactNumber" => "9999999999",
+                "email" => "nisamvp10@gmail.com",
+                "alternateNumber" => "9999999999",
+                "address" => "Kerala Address",
+                "landmark" => "Near Area",
+                "pincode" => 676505,
+                "city" => "Malappuram",
+                "state" => "Kerala",
+                "country" => "India"              
+            ],
+            "packageList" => [
+                [
+                    "name" => "Test Product",
+                    "qty" => 1,
+                    "price" => 500,
+                    "category" => "General",
+                    "sku" => "SKU001",
+                    "hsnCode" => "1234"
+                ]
+            ]
+        ];
 
-        $tracking = $this->shipbuddyService->trackShipment($trackingId);
+        $res = $this->shipbuddyService->request('orderApi/createOrder', 'POST', $payload);
+       
+        // Save response
+        // $this->model->insert([
+        //     'order_id' => $orderId,
+        //     'response' => json_encode($res),
+        //     'status'   => $res['status'] ?? 'created'
+        // ]);
 
-        return $this->response->setJSON($tracking);
+        return $this->response->setJSON($res);
     }
+
+    
 }

@@ -24,6 +24,7 @@ class ShipbuddyService
             'Authorization: Bearer ' . $this->token,
             'origin: https://royalallianceayurveda.com'
         ];
+        
 
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
