@@ -11,6 +11,7 @@ use App\Models\UsersregistrationsModel;
 use App\Models\ProductModel;
 use App\Models\ProductManageModel;
 use App\Models\CouponcodeModel;
+use App\Services\ShipbuddyService;
 //thi controller in controllers frond folder 
 use Razorpay\Api\Api;
 use App\Controllers\front\RazorpayController; 
@@ -26,6 +27,7 @@ class CheckoutController extends Controller
     protected $productModel;
     protected $productManageModel;
     protected $couponcodeModel;
+    protected $shipbuddyService;
     public function __construct()
     {
         $this->cart = new CartService();
@@ -37,6 +39,7 @@ class CheckoutController extends Controller
         $this->productManageModel = new ProductManageModel();
         $this->couponcodeModel = new CouponcodeModel();
         $this->paymentGateway = new PaymentGateway();
+        $this->shipbuddyService = new ShipbuddyService();
     }
     public function index()
     {
@@ -80,7 +83,7 @@ class CheckoutController extends Controller
 
     public function placeOrder() {
         $address_id = $this->request->getPost('address_id');
-        $payment_method = $this->request->getPost('payment_method') ?? 'gateway'; //cod
+        $payment_method = $this->request->getPost('payment_method') ?? 'cod'; //gateway
         $user = session()->get('user');
         $status = ($user && isset($user['isLoggedIn']) && $user['isLoggedIn'] === true);
         $minimumOrderAmount = getappdata('minimum_order_amount');
@@ -189,6 +192,8 @@ class CheckoutController extends Controller
             //print_r($orderData); exit();
             $order = $this->customerOrderModel->insert($orderData);
             if($order){
+
+                $packageList = [];
                 $order_id = $this->customerOrderModel->insertID();
                 foreach($cartItems as $item){
                     $orderItemData = [
@@ -200,6 +205,9 @@ class CheckoutController extends Controller
                         'type' => $payment_method,
                         'created_at' => date('Y-m-d H:i:s')
                     ];
+
+                    
+
                     $this->customerOrderItemsModel->insert($orderItemData);
                     //select product id from productmanagement 
                     $productManage = $this->productManageModel->where('id', $item['product_id'])->first();
@@ -207,11 +215,52 @@ class CheckoutController extends Controller
                     $currentStock = $this->productModel->where('id', $productManage['product_id'])->first();
                     $blanceQty = $currentStock['current_stock'] - $item['quantity'];
                     $this->productModel->update( $productManage['product_id'], ['current_stock' => $blanceQty]);
+                     $packageList[] = [
+                            "name" => $productManage['product_title'],
+                            "qty" => $item['quantity'],
+                            "price" => $item['price'],
+                            "category" => 'General',
+                            "sku" => $currentStock['sku'],
+                            "hsnCode" => 1234,//$currentStock['hsn_code']
+                        ];
                 }
 
                 //payment method COD
                 if($payment_method == 'cod'){
+
                     $this->customerOrderModel->update($order_id, ['payment_status' => 'unpaid','status' => 'confirmed']); 
+                    //shiping address to shipbuddy 
+                    $payload = [
+                        "orderData" => [
+                            "deliveryType" => "FORWARD",
+                            "isDangerousGoods" => "n",
+                            "paymentMode" => "paid",
+                            "length" => 10,
+                            "breadth" => 10,
+                            "height" => 10,
+                            "warehouseName" => "Royal Alliance Ayurveda",
+                            "packageCount" => 1,
+                            "shippingMode" => "surface",
+                            "deadWeight" => 0.5
+                        ],
+                        "customerAddressList" => [
+                            "fullName" => $address->full_name ?? '',
+                            "contactNumber" => $address->phone ?? '',
+                            //"email" => $shippingAddress['email'] ?? '',
+                            "alternateNumber" => $address->phone ?? '',
+                            "address" => $address->address_line1 ?? '',
+                            //"landmark" => $shippingAddress['landmark'] ?? '',
+                            "pincode" => $address->postal_code ?? '',
+                            "city" => $address->city ?? '',
+                            "state" => $address->state ?? '',
+                            "country" => $address->country ?? ''
+                        ],
+                        "packageList" => $packageList
+                    ];
+                     
+                    $response = $this->shipbuddyService->request('orders/create', 'POST', $payload);
+                     print_r($response); exit();
+                  
                     //clear cart 
                     $this->cart->deleteCart($cart['id']);
                     //mail template 
@@ -315,6 +364,53 @@ class CheckoutController extends Controller
             $this->productModel->update($productManage['product_id'], ['current_stock'=>$balanceQty]);
 
         }
+        //create shipping address
+        
+        $orderId = 'ORD' . time();
+        $shippingAddress = json_decode($order['shipping_address'], true);
+        $packageList = [];
+        if($orderItems){
+            foreach($orderItems as $item){
+                $productManage = $this->productManageModel->where('id',$item['product_id'])->first();
+                $currentStock = $this->productModel->where('id',$productManage['product_id'])->first();
+                $packageList[] = [
+                    "name" => $productManage['product_title'],
+                    "qty" => $item['quantity'],
+                    "price" => $item['price'],
+                    "category" => 'General',
+                    "sku" => $currentStock['sku'],
+                    "hsnCode" => 123,//$currentStock['hsn_code']
+                ];
+            }
+        }
+        $payload = [
+            "orderData" => [
+                "deliveryType" => "FORWARD",
+                "isDangerousGoods" => "n",
+                "paymentMode" => "paid",
+                "length" => 10,
+                "breadth" => 10,
+                "height" => 10,
+                "warehouseName" => "Royal Alliance Ayurveda",
+                "packageCount" => 1,
+                "shippingMode" => "surface",
+                "deadWeight" => 0.5
+            ],
+            "customerAddressList" => [
+                "fullName" => $shippingAddress['name'] ?? '',
+                "contactNumber" => $shippingAddress['phone'] ?? '',
+                //"email" => $shippingAddress['email'] ?? '',
+                "alternateNumber" => $shippingAddress['phone'] ?? '',
+                "address" => $shippingAddress['address'] ?? '',
+                //"landmark" => $shippingAddress['landmark'] ?? '',
+                "pincode" => $shippingAddress['post'] ?? '',
+                "city" => $shippingAddress['city'] ?? '',
+                "state" => $shippingAddress['state'] ?? '',
+                "country" => $shippingAddress['country'] ?? ''
+            ],
+            "packageList" => $packageList
+        ];
+        $response = $this->shipbuddyService->request('orders/create', 'POST', $payload);
 
         /* DELETE CART */
 

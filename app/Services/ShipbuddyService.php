@@ -4,64 +4,70 @@ namespace App\Services;
 
 class ShipbuddyService
 {
-    protected $apiKey;
     protected $baseUrl;
-    protected $client;
+    protected $token;
 
     public function __construct()
     {
-        $this->apiKey  = getenv('shipbudddy.api_key');
-        $this->baseUrl = rtrim(getenv('shipbudddy.baseUrl'), '/') . '/';
-
-        $this->client = \Config\Services::curlrequest([
-            'timeout' => 30
-        ]);
+        $this->token  = getenv('shipbudddy.api_key');
+        $this->baseUrl = 'https://seller.shypbuddy.net/api/';
     }
 
-    private function request($endpoint, $method = 'GET', $data = [])
+    public function request($endpoint, $method = 'POST', $data = [])
     {
-        try {
+        $url = $this->baseUrl . $endpoint;
 
-            $options = [
-                'headers' => [
-                    'Authorization' => 'Bearer ' . $this->apiKey,
-                    'Content-Type'  => 'application/json'
-                ]
-            ];
+        $ch = curl_init();
 
-            if ($method === 'POST') {
-                $options['json'] = $data;
-            }
+        $headers = [
+            'Content-Type: application/json',
+            'Authorization: Bearer ' . $this->token,
+            'origin: https://royalallianceayurveda.com'
+        ];
 
-            $response = $this->client->request(
-                $method,
-                $this->baseUrl . $endpoint,
-                $options
-            );
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
-            $body = json_decode($response->getBody(), true);
+        // Method handling
+        switch ($method) {
+            case 'POST':
+                curl_setopt($ch, CURLOPT_POST, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+                break;
 
+            case 'PUT':
+            case 'PATCH':
+            case 'DELETE':
+                curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+                break;
+
+            case 'GET':
+                curl_setopt($ch, CURLOPT_HTTPGET, true);
+                break;
+        }
+
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        curl_setopt($ch, CURLOPT_VERBOSE, true);
+
+        $response = curl_exec($ch);
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+        if (curl_errno($ch)) {
             return [
-                'success' => true,
-                'data' => $body
-            ];
-
-        } catch (\Throwable $e) {
-
-            return [
-                'success' => false,
-                'error' => $e->getMessage()
+                'status' => false,
+                'error' => curl_error($ch)
             ];
         }
-    }
 
-    public function createShipment($data)
-    {
-        return $this->request('shipments/create', 'POST', $data);
-    }
+        curl_close($ch);
 
-    public function trackShipment($trackingNumber)
-    {
-        return $this->request('shipments/track/' . $trackingNumber);
+        return [
+            'status' => true,
+            'status_code' => $httpCode,
+            'response' => json_decode($response, true),
+            'raw' => $response
+        ];
     }
 }
