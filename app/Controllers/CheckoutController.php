@@ -83,7 +83,7 @@ class CheckoutController extends Controller
 
     public function placeOrder() {
         $address_id = $this->request->getPost('address_id');
-        $payment_method = $this->request->getPost('payment_method') ?? 'cod'; //gateway
+        $payment_method = $this->request->getPost('payment_method') ?? 'gateway'; //gateway
         $user = session()->get('user');
         $status = ($user && isset($user['isLoggedIn']) && $user['isLoggedIn'] === true);
         $minimumOrderAmount = getappdata('minimum_order_amount');
@@ -259,7 +259,6 @@ class CheckoutController extends Controller
                     ];
                      
                     $response = $this->shipbuddyService->request('orders/create', 'POST', $payload);
-                     print_r($response); exit();
                   
                     //clear cart 
                     $this->cart->deleteCart($cart['id']);
