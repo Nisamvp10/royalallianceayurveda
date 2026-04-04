@@ -16,6 +16,8 @@ class CartService
     protected $productManageModel;
     protected $couponcodeModel;
     protected $customerOrderModel;
+    protected $cartSessionId = null;
+
     public function __construct()
     {
         $this->cartModel = new CartModel();
@@ -26,6 +28,28 @@ class CartService
         $this->couponcodeModel = new CouponcodeModel();
         $this->customerOrderModel = new CustomerOrderModel();
     }
+    private function getCartSessionId()
+    {
+        if ($this->cartSessionId !== null) {
+            return $this->cartSessionId;
+        }
+
+        helper('cookie');
+        $sessionId = get_cookie('cart_session');
+        
+        if (!$sessionId) {
+            $sessionId = session_id();
+            if (empty($sessionId)) {
+                $sessionId = bin2hex(random_bytes(16));
+            }
+            set_cookie('cart_session', $sessionId, 30 * 24 * 60 * 60);
+        }
+        
+        $this->cartSessionId = $sessionId;
+        return $sessionId;
+    }
+
+    // gust puracjse now i am create session change to cookie
     public function getMyCart()
     {
        $cart = $this->getCart();
@@ -43,8 +67,7 @@ class CartService
             $userId = $user['userId']; // use 'id' not userId
         }
 
-        $sessionId = $session->get('cart_session') ?? session_id();
-        $session->set('cart_session', $sessionId);
+        $sessionId = $this->getCartSessionId();
 
         if ($userId) {
             $this->mergeCartAfterLogin();
@@ -68,7 +91,7 @@ class CartService
         if (!$user || !$user['isLoggedIn']) return;
 
         $userId = $user['userId'];
-        $sessionId = $session->get('cart_session');
+        $sessionId = $this->getCartSessionId();
 
         if (!$sessionId) return;
 
@@ -135,7 +158,7 @@ class CartService
         }
         return $this->cartModel->insert([
             'user_id'    => $userId,
-            'session_id' => $session->get('cart_session'),
+            'session_id' => $this->getCartSessionId(),
             'created_at' => date('Y-m-d H:i:s')
         ]);
     }

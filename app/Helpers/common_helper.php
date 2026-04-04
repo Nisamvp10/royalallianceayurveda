@@ -95,3 +95,10 @@ if(!function_exists('services')) {
         return $services;
     }
 }
+
+//user account login or not
+if(!function_exists('isUserLoggedIn')) {
+    function isUserLoggedIn() {
+        return session()->get('user') ? true : false;
+    }
+}

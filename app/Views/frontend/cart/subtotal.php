@@ -15,8 +15,6 @@
                 <h3 class="p-10 bg-off-white py-3 px-2">Order Summary  (<?= count($subtotal) ?>)</h3>
                 <div class="coupon_inner p-2 cart__collaterals-wrap m-0">
                     
-                  
-
                      <ul class="list-wrap">
                         <li>Subtotal <span><?= money_format_custom($amountAmt) ?></span></li>
                         <li>Tax <span><?= money_format_custom($taxCalculate) ?></span></li>

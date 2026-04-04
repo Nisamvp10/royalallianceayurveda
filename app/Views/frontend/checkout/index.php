@@ -42,6 +42,77 @@
                             <div id="collapseaddress" class="collapse show"
                                 data-parent="#accordion">
                                 <div class="card-body">
+                                    <!-- create a form here user email address with shipping address -->
+                                    <form action="" id="addShippingAddressForm2">
+                                        <label class="d-flex justify-content-end logbtn"  data-toggle="modal" data-target="#loginModal">Login</label>
+                                        <div class="form-group">
+                                            <label for="email">Email</label>
+                                            <!-- Enter Email id or Mobile number -->
+                                            <input type="text" name="shipping_email_id" autocomplete="email" class="form-control" id="user_email" placeholder="Enter email">
+                                             <div id="user_emailError" class="text-danger invalid-feedback"></div>
+                                        </div>
+                                        <div class="form-group mt-2 mb-2">
+                                            <label>Phone</label>
+                                            <input type="text" class="form-control w-100" autocomplete="tel" id="shipping_phone" name="shipping_phone" >
+                                            <div id="shipping_phoneError" class="text-danger invalid-feedback"></div>
+                                        </div>
+                                       
+                                        <div class="form-group">
+                                            <label>Name</label>
+                                            <input type="text" class="form-control" autocomplete="name" name="shipping_name" id="shipping_name">
+                                            <input type="hidden" name="shipping_address_id" id="shipping_address_id" value="">
+                                            <div id="shipping_nameError" class="text-danger invalid-feedback"></div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label>Address</label>
+                                            <textarea class="form-control" name="shipping_address" autocomplete="street-address" id="shipping_address" rows="3"></textarea>
+                                            <div id="shipping_addressError" class="text-danger invalid-feedback"></div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label>City</label>
+                                                    <input type="text" class="form-control" name="shipping_city" autocomplete="city" id="shipping_city">
+                                                    <div id="shipping_cityError" class="text-danger invalid-feedback"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label>State</label>
+                                                    <input type="text" class="form-control" autocomplete="state" name="shipping_state" id="shipping_state">
+                                                    <div id="shipping_stateError" class="text-danger invalid-feedback"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-2">
+                                                    <label>Pincode</label>
+                                                    <input type="text" class="form-control" autocomplete="postal-code" name="shipping_pincode" id="shipping_pincode">
+                                                    <div id="shipping_pincodeError" class="text-danger invalid-feedback"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label>Country</label>
+                                                    <input type="text" class="form-control" name="shipping_country" autocomplete="country" id="shipping_country">
+                                                    <div id="shipping_countryError" class="text-danger invalid-feedback"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="text-right">
+                                            <button type="reset" class="btn btn-secondary" data-dismiss="modal">
+                                                Reset
+                                            </button>
+                                            <button type="submit" class="btn btn-primary" id="saveAddress">
+                                                Save Address
+                                            </button>
+                                        </div>
+                                    </form>
                                     <div id="shippingAddress"></div>
                                 </div>
                             </div>
@@ -184,6 +255,9 @@ $(document).ready(function () {
         separateDialCode: true,
         initialCountry: "in",
         preferredCountries: ["in"],
+        hiddenInput: "phone_number",
+        //width of the input
+        width: "100%",
         nationalMode: false,
         utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
     });

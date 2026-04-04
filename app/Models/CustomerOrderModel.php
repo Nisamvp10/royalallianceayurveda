@@ -30,7 +30,9 @@ class CustomerOrderModel extends Model
                     ->join('customer_orders_items as coi','coi.customer_order_id = co.id')
                     ->join('product_management as pm','coi.product_id = pm.id')
                     ->join('products as p','p.id = pm.product_id')
-                    ->join('usersregistrations as ur','ur.id = co.user_id')
+                    //gut purchase user id = 0 so join not required
+                    //->join('usersregistrations as ur','ur.id = co.user_id')
+                    ->join('usersregistrations as ur','ur.id = co.user_id','left')
                     ->join('shipping_addresses as sa','sa.id = co.address_id')
                     ->orderBy('coi.id','DESC');
                     if($searchInput) {

@@ -40,9 +40,9 @@
                                         <li>
                                             <a href="mailto:<?=getappdata('email')?>"><?=getappdata('email')?></a>
                                         </li>
-                                        <li>
+                                        <!-- <li>
                                             <a href="mailto:sales@royalallianceayurveda.com">sales@royalallianceayurveda.com</a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                     <div class="shape">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="174" height="210" viewBox="0 0 174 210" fill="none">

@@ -10,7 +10,9 @@
         foreach($subtotal as $res) {
             $amountAmt += $res['subtotal'];  
         }
-    }    
+    }   
+    
+ 
     $subtotalAmt = ($amountAmt - $couponDiscount);
     $taxCalculate = round($subtotalAmt * ($taxAmt / 100));
     $totalAmt = $amountAmt + $taxCalculate - $couponDiscount;
@@ -26,6 +28,22 @@
                                 <button type="button" class="theme-btn style6 applyCoupon rounded-0 h-auto px-3 py-2">Apply</button>
                             </div>
                         </div>
+
+                <div class="w-100">
+                    <?php
+                    if(!empty($subtotal)) {
+                        foreach($subtotal as $res) {
+                            ?>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <p><?= $res['product_title'] ?> x <?= $res['quantity'] ?></p>
+                                <p><?= money_format_custom($res['price']) ?></p>
+                            </div>
+                            <?php
+                        }
+                    }
+                    ?>
+
+                </div>
                 <ul class="list-wrap">
                     <li>Subtotal <span><?= money_format_custom($amountAmt) ?></span></li>
                     <li>Tax <span><?= money_format_custom($taxCalculate) ?></span></li>

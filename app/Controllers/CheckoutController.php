@@ -61,31 +61,33 @@ class CheckoutController extends Controller
         $status = ($user && isset($user['isLoggedIn']) && $user['isLoggedIn'] === true);
         return $status;
     }
-    private function generateOrderNumber()
+    private function generateOrderNumber($orderId)
     {
-        $prefix = 'ORD';
-        $date = date('Ymd');
+        // $prefix = 'ORD';
+        // $date = date('Ymd');
+        // //last order id 
+        // $lastOrder = $this->customerOrderModel->like('order_number', $prefix . '-' . $date, 'after')->orderBy('id', 'DESC')->first();
 
-        $lastOrder = $this->customerOrderModel
-            ->like('order_number', $prefix . '-' . $date, 'after')
-            ->orderBy('id', 'DESC')
-            ->first();
+        // if ($lastOrder) {
+        //     //last id last orderId unique 
+        //     $lastNumber = (int) substr($lastOrder['order_number'], -5);
+        //     $newNumber = str_pad($lastNumber + 1, 5, '0', STR_PAD_LEFT);
+        // } else {
+        //     $newNumber = '00001';
+        // }
+        return 'ORD-' . date('Ymd') . '-' . str_pad($orderId, 6, '0', STR_PAD_LEFT);
 
-        if ($lastOrder) {
-            $lastNumber = (int) substr($lastOrder['order_number'], -5);
-            $newNumber = str_pad($lastNumber + 1, 5, '0', STR_PAD_LEFT);
-        } else {
-            $newNumber = '00001';
-        }
-
-        return $prefix . '-' . $date . '-' . $newNumber;
     }
 
     public function placeOrder() {
         $address_id = $this->request->getPost('address_id');
         $payment_method = $this->request->getPost('payment_method') ?? 'gateway'; //cod
-        $user = session()->get('user');
-        $status = ($user && isset($user['isLoggedIn']) && $user['isLoggedIn'] === true);
+        helper('cookie');
+        $sessionId = get_cookie('cart_session');
+
+        $userSession = session()->get('user');
+        $isLoggedIn = ($userSession && isset($userSession['isLoggedIn']) && $userSession['isLoggedIn'] === true);
+        $status = $isLoggedIn || $sessionId; // Allow if logged in or has a session id
         $minimumOrderAmount = getappdata('minimum_order_amount');
         $itemSum = 0;
         $tax = getappdata('tax');
@@ -128,9 +130,24 @@ class CheckoutController extends Controller
             //$db = \Config\Database::connect();
             //$db->transStart();
             //4 create order
-            $address = $this->shippingAddressModel->where('user_id', $user['userId'])->where('is_default', 1)->get()->getRow();
+            if ($isLoggedIn) {
+                $address = $this->shippingAddressModel->where('user_id', $userSession['userId'])->where('is_default', 1)->get()->getRow();
+                $userData = $this->userModel->where('id', $userSession['userId'])->get()->getRow();
+            } else {
+                $address = $this->shippingAddressModel->where('session_id', $sessionId)->where('is_default', 1)->get()->getRow();
+            }
+
+            if (!$address) {
+                return $this->response->setJSON([
+                    'success' => false,
+                    'message' => 'Please provide a shipping address',
+                    'url' => base_url('checkout')
+                ]);
+            }
+
             $shippingAddress = [
                 'name'  => $address->full_name,
+                'email' => $address->email,
                 'phone' => $address->phone,
                 'address'   => $address->address_line1,
                 'city'  =>$address->city,
@@ -139,10 +156,10 @@ class CheckoutController extends Controller
                 'country'   => $address->country,
 
             ];
-            $orderNumber = $this->generateOrderNumber();
+          
             $orderData = [
-                'user_id' => $user['userId'],
-                'order_number' => $orderNumber,
+                'user_id' => $isLoggedIn ? $userSession['userId'] : 0,
+               // 'order_number' => $orderNumber,
                 'tax' => $taxAmount,
                 'coupen_code_id' => $cart['couponcode_id'],
                 'discount' => $cart['coupon_discount'],
@@ -160,13 +177,21 @@ class CheckoutController extends Controller
             if($payment_method == 'gateway'){
                 
                //$order = $this->paymentGateway->createOrder($totalAmount, 'INR', $orderData['order_number']);
-               $order = $this->paymentGateway->createOrder($totalAmount,$orderData['order_number']);
+                // $order = $this->paymentGateway->createOrder($totalAmount,$orderData['order_number']);
+                // $orderNumber = $this->generateOrderNumber();
+
+                $order_id = $this->customerOrderModel->insert($orderData,true);
+                $orderNumber = $this->generateOrderNumber($order_id);
+                $this->customerOrderModel->update($order_id, ['order_number' => $orderNumber]);
+                $order = $this->paymentGateway->createOrder($totalAmount,$orderNumber);
+
 
                 if(isset($order['id'])){
 
-                    $orderData['gateway_order_id'] = $order['id'];
+                    //$orderData['gateway_order_id'] = $order['id'];
+                    $this->customerOrderModel->update($order_id, ['gateway_order_id' => $order['id']]);//
 
-                    $order_id = $this->customerOrderModel->insert($orderData,true);
+                    //$order_id = $this->customerOrderModel->insert($orderData,true);
                     foreach($cartItems as $item){
                         $orderItemData = [
                             'customer_order_id' => $order_id,
@@ -191,10 +216,14 @@ class CheckoutController extends Controller
             }
             //print_r($orderData); exit();
             $order = $this->customerOrderModel->insert($orderData);
+            $order_id = $this->customerOrderModel->insertID();
+            $orderNumber = $this->generateOrderNumber($order_id);
+            //update order number
+            $this->customerOrderModel->update($order_id, ['order_number' => $orderNumber]);
             if($order){
 
                 $packageList = [];
-                $order_id = $this->customerOrderModel->insertID();
+             
                 foreach($cartItems as $item){
                     $orderItemData = [
                         'customer_order_id' => $order_id,
@@ -230,9 +259,7 @@ class CheckoutController extends Controller
 
                     //get user details like email and phone \\ is cart_session \\ is user_id
                     
-                    $user = $this->userModel->where('id', $user['userId'])->first();
                     $pincode = trim($address->postal_code);
-                    $pincode = trim($address->postal_code); // remove spaces
                     $pincode = preg_replace('/[^0-9]/', '', $pincode);
                     $pincode = substr(preg_replace('/\D/', '', $address->postal_code), 0, 6);
                     //shiping address to shipbuddy 
@@ -253,7 +280,7 @@ class CheckoutController extends Controller
                         "customerAddressList" => [
                             "fullName" => $address->full_name ?? '',
                             "contactNumber" => $address->phone ?? '',
-                            "email" => $user['email'] ?? '',
+                            "email" => ($address->email ?? $userData->email) ?? '',
                             "alternateNumber" => $address->phone ?? '',
                             "address" => $address->address_line1 ?? '',
                             //"landmark" => $shippingAddress['landmark'] ?? '',
@@ -267,6 +294,7 @@ class CheckoutController extends Controller
                     ];
                     //$response = $this->shipbuddyService->request('orders/create', 'POST', $payload);
                     $res = $this->shipbuddyService->request('orderApi/createOrder', 'POST', $payload);
+                   
                     $shipping_order_id = $res['response']['data'][0]['orderId'];
                     $this->customerOrderModel->update($order_id, ['payment_status' => 'unpaid','status' => 'confirmed','shipping_order_id'=>$shipping_order_id]); 
 
@@ -297,8 +325,8 @@ class CheckoutController extends Controller
         } else {
             return $this->response->setJSON([
                 'success' => false,
-                'message' => 'Please login to place order',
-                'url' => base_url('login')
+                'message' => 'Your cart is empty or session expired',
+                'url' => base_url('checkout')
             ]);
         }
     }
@@ -401,9 +429,11 @@ class CheckoutController extends Controller
                 ];
             }
         }
-        $user = $this->userModel->where('id', $order['user_id'])->first();
+        $user = null;
+        if ($order['user_id']) {
+            $user = $this->userModel->where('id', $order['user_id'])->first();
+        }
         $pincode = trim($shippingAddress['post']);
-        $pincode = trim($shippingAddress['post']); // remove spaces
         $pincode = preg_replace('/[^0-9]/', '', $pincode);
         $pincode = substr(preg_replace('/\D/', '', $shippingAddress['post']), 0, 6);
 
@@ -423,7 +453,7 @@ class CheckoutController extends Controller
             "customerAddressList" => [
                 "fullName" => $shippingAddress['name'] ?? '',
                 "contactNumber" => $shippingAddress['phone'] ?? '',
-                "email" => $user['email'] ?? '',
+                "email" => $shippingAddress['email'] ?? ($user['email'] ?? ''),
                 "alternateNumber" => $shippingAddress['phone'] ?? '',
                 "address" => $shippingAddress['address'] ?? '',
                 "pincode" => (int)$pincode, 
@@ -459,11 +489,27 @@ class CheckoutController extends Controller
         join('product_management', 'product_management.id = customer_orders_items.product_id')
         ->get()
         ->getResultArray();
-        $shippingAddress = $this->shippingAddressModel->where('id', $order['address_id'])->get()->getRow();
-        $user = $this->userModel->where('id', $order['user_id'])->get()->getRow();
-        $emailService->setTo($user->email);
+
+        //check login he is logged in send mail to user email else send to $shipping address email
+        $shippingAddress = json_decode($order['shipping_address'], true);
+       
+        $user = [];
+            //user not login set gust details for user
+            if($order['user_id'] == 0){
+                $user = [
+                    'name' => $shippingAddress['name'],
+                    'email' => $shippingAddress['email'],
+                    'phone' => $shippingAddress['phone'],
+                ];
+                  $mailTo = (!empty($shippingAddress['email'])) ? $shippingAddress['email'] : $user['email'];
+            }else{
+                $user = $this->userModel->where('id', $order['user_id'])->first();
+                $mailTo = (!empty($shippingAddress['email'])) ? $shippingAddress['email'] : $user['email'];
+            }
+          
+        $emailService->setTo($mailTo);
         $emailService->setSubject('Order Placed');
-        $emailService->setMessage(view('frontend/email/order_placed', compact('order', 'order_items','user','shippingAddress')));
+        $emailService->setMessage(view('frontend/email/order_placed', compact('order', 'order_items','user')));
         $emailService->send();
     }
     public function applyCoupon(){

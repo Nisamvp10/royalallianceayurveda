@@ -157,7 +157,7 @@ class AuthController extends BaseController
             <p>OTP: " . $otp . "</p>
             <p>This OTP will expire in 10 minutes.</p>
             <p>Thank you,</p>
-            <p>Robin Food</p>";
+            <p>Royal Alliance Ayurveda</p>";
             $emailService->setTo($email);
             $emailService->setSubject($subject);
             $emailService->setMessage($message);

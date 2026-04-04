@@ -14,21 +14,18 @@
 
                     <form action="#" method="post" id="addShippingAddressForm">
 
-                    <div class="form-group">
+                        <div class="form-group">
                             <label>Name</label>
                             <input type="text" class="form-control" name="shipping_name" id="shipping_name" >
                             <input type="hidden" name="shipping_address_id" id="shipping_address_id" value="">
                             <div id="shipping_nameError" class="text-danger invalid-feedback"></div>
                         </div>
-
                            
-                                <div class="form-group">
-                                    <label>Phone</label>
-                                    <input type="text" class="form-control w-100" id="shipping_phone" name="shipping_phone" >
-                                    <div id="shipping_phoneError" class="text-danger invalid-feedback"></div>
-                                </div>
-                            
-
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="text" class="form-control w-100" id="shipping_phone" name="shipping_phone" >
+                            <div id="shipping_phoneError" class="text-danger invalid-feedback"></div>
+                        </div>
                         
                         <div class="form-group">
                             <label>Address Line 1</label>
