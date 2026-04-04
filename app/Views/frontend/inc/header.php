@@ -51,7 +51,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <li class="<?=($page == 'Contact Us')?'active':'';?>"><a href="<?=base_url('contact');?>">Contact Us</a></li>
 
                                         <li class="<?=($page == 'About Us')?'active':'';?>"><a href="<?=base_url('about-us');?>" class="section-link">About Us</a></li>
-                                        <li class="<?=($page == 'FAQ')?'active':'';?>"><a href="<?=base_url('faq');?>" class="section-link">FAQ</a></li>
+                                        <!-- <li class="<?=($page == 'FAQ')?'active':'';?>"><a href="<?=base_url('faq');?>" class="section-link">FAQ</a></li> -->
                                        
                                     </ul>
                                 </div>
