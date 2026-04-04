@@ -10,7 +10,7 @@ if(!$isLogin){
             <p>'.$address['full_name'].','.$address['phone'].','.$address['address_line1'].','.$address['city'].','.$address['state'].','.$address['postal_code'].','.$address['country'].'</p></div></div>';
         }
     }else{
-        $html.= '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addNewAddressModal"> Add to Address </button><br><p>No address found</p>';
+       // $html.= '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addNewAddressModal"> Add to Address </button><br><p>No address found</p>';
     }
 }else{
     if(count($data) > 0){
