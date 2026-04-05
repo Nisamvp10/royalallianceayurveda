@@ -6,11 +6,11 @@
 
          <main class="main-area fix">
             <!-- banner-area -->
-            <section class="banner__area banner__bg" data-background="<?=base_url('public/assets/template/');?>assets/img/hero_bg.jpg">
+             <section class="banner__area banner__bg pb-2" data-background="<?=base_url('public/assets/template/');?>assets/img/hero_bg.jpg">
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
                         <div class="col-lg-7 col-md-10 order-0 order-lg-2">
-                            <div class="banner__images">
+                            <!-- <div class="banner__images">
                                 <img src="<?=base_url('public/assets/template/');?>assets/img/sha.png" alt="img" class="main-img" data-sal="slide-left" data-sal-duration="700" data-sal-delay="100">
                                 <div class="banner__off" data-background="<?=base_url('public/assets/template/');?>assets/img/hero_img_shape02.png" data-sal="zoom-in" data-sal-duration="700" data-sal-delay="200">
                                     <h4 class="sale">
@@ -18,17 +18,17 @@
                                         SALE
                                     </h4>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="col-lg-5">
-                            <div class="banner__content" data-sal="slide-right" data-sal-duration="700" data-sal-delay="100">
-                                <h2 class="title">
+                            <div class="banner__content pt-5" data-sal="slide-right" data-sal-duration="700" data-sal-delay="100">
+                                <h2 class="title pt-3" style="font-size: 40px;">
                                     <span>Cheetah   </span>
                                     Sithaswagandhadi Thailam
                                 </h2>
                                 <p class="text"> Cheetah Sithaswagandhadi Thailam is a premium, ayurvedic quality formulation developed by Shankara’s Pharma, Malappuram, and Kerala. </p>
                                 <!-- the button click smoothly scroll to the product section -->
-                                <a href="#product" class="tg-btn tg-btn-three">Shop Now</a>
+                                <!-- <a href="#product" class="tg-btn tg-btn-three">Shop Now</a> -->
                             </div>
                         </div>
                     </div>
@@ -38,6 +38,144 @@
                     <img src="<?=base_url('public/assets/template/');?>assets/img/hero_img_shape.png" alt="img" class="shape">
                 </div>
             </section>
+
+            <section id="product" class="product__details-area section-py-150 section-bg">
+    <div class="container">
+
+    <?php if(!empty($premiumProducts)) {
+        foreach($premiumProducts as $product) {
+
+            $variantImages = $product['variantImages'];
+            $firstImage = $product['product_image'];
+            $variantImagesGallery = [];
+
+            if (!empty($firstImage)) {
+                $variantImagesGallery[] = [
+                    'image' => $firstImage
+                ];
+            }
+            if (!empty($variantImages)) {
+                foreach ($variantImages as $variantImage) {
+                    // avoid duplicate
+                    if ($variantImage['image'] == $firstImage) continue;
+                    $variantImagesGallery[] = [
+                        'image' => $variantImage['image']
+                    ];
+                        }
+                    }
+
+            
+
+            if(!empty($variantImages)) {
+                $firstImage = $variantImages[0]['image'];
+            }
+    ?>
+
+    <div class="row align-items-center justify-content-center mb-5">
+
+        <!-- LEFT SIDE (IMAGES) -->
+        <div class="col-lg-6 col-md-9">
+            <div class="product__details-wrap">
+
+                <!-- MAIN IMAGE -->
+                <div class="product__details-img text-center">
+                    <img id="mainImage_<?= $product['id'] ?>"
+                         src="<?= validImg($firstImage); ?>"
+                         style="max-width:100%;  object-fit:contain;">
+                </div>
+
+                <!-- THUMBNAILS -->
+                <div class="product__thumbs mt-3 d-flex gap-2 flex-wrap justify-content-center">
+
+                    <!-- Main image thumb -->
+                    <img 
+                        src="<?= validImg($product['product_image']); ?>"
+                        class="thumb-img active-thumb"
+                        data-target="mainImage_<?= $product['id'] ?>"
+                        style="width:70px;height:70px;object-fit:cover;cursor:pointer;border:1px solid #ddd;padding:3px;"
+                    >
+
+                    <!-- Variant images -->
+                    <?php if(!empty($variantImages)) {
+                        foreach($variantImages as $img) {
+
+                            // avoid duplicate image
+                            if($img['image'] == $product['product_image']) continue;
+                    ?>
+
+                    <img 
+                        src="<?= validImg($img['image']); ?>"
+                        class="thumb-img"
+                        data-target="mainImage_<?= $product['id'] ?>"
+                        style="width:70px;height:70px;object-fit:cover;cursor:pointer;border:1px solid #ddd;padding:3px;"
+                    >
+
+                    <?php } } ?>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE (CONTENT) -->
+        <div class="col-lg-6">
+            <div class="product__details-content">
+
+                <span class="sub-title">Proteins, shots</span>
+
+                <h4 class="title">
+                    <?= $product['product_title'] ?? '' ?>
+                </h4>
+
+                <?php
+                $price = calculatePrice(
+                    $product['price'],
+                    $product['compare_price'],
+                    $product['price_offer_type']
+                );
+
+                $offerPrice  = $price['offer_price'];
+                $actualPrice = $price['actual_price'];
+                ?>
+
+                <h2 class="product__details-price">
+                    <del><?= money_format_custom($actualPrice) ?></del>
+                    <?= money_format_custom($offerPrice) ?>
+                </h2>
+
+                <p><?= $product['short_description'] ?? '' ?></p>
+
+                <div class="product__details-list">
+                    <?= $product['description'] ?? '' ?>
+                </div>
+
+                <div class="product__details-info">
+                      <div class="sd-cart-wrap">
+                        <form action="#">
+                            <div class="quickview-cart-plus-minus">
+                                <input type="text" id="quantity" value="1">
+                            </div>
+                        </form>
+                    </div>
+
+                    <a href="javascript:void(0)" 
+                       class="cart-btn add-to-cart" 
+                       data-id="<?= $product['id'] ?>">
+                       Add to cart
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <?php } } ?>
+
+    </div>
+</section>
+
+
             <!-- banner-area-end -->
             <!-- about-area -->
             
@@ -206,97 +344,7 @@
             </section>
 
 
-                        <section id="product" class="product__details-area section-py-150 section-bg">
-                <div class="container">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-lg-6 col-md-9">
-                            <div class="product__details-wrap">
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane show active" id="itemOne-tab-pane" role="tabpanel" aria-labelledby="itemOne-tab" tabindex="0">
-                                        <div class="product__details-img">
-                                            <img src="<?=base_url('public/assets/template/');?>assets/img/p.png" alt="img">
-                                        </div>
-                                    </div>
-                                 
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="product__details-content">
-                                <span class="sub-title">Proteins, shots</span>
-                                <h4 class="title">
-                                    <?= ($premiumProducts->product_title)?$premiumProducts->product_title:'';?>
-                                    <?php
-                                        $price = calculatePrice(
-                                            $premiumProducts->price,
-                                            $premiumProducts->compare_price,
-                                            $premiumProducts->price_offer_type
-                                        );
-                                         $offerPrice  = $price['offer_price'];
-                                         $discount    = $price['discount'];
-                                         $actualPrice = $price['actual_price'];
-
-                                    ?>
-                                </h4>
-                                <div class="product__details-rating">
-                                    <div class="rating">
-                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z" fill="currentColor"/>
-                                        </svg>
-                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z" fill="currentColor"/>
-                                        </svg>
-                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z" fill="currentColor"/>
-                                        </svg>
-                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10 0L12.2451 6.90983H19.5106L13.6327 11.1803L15.8779 18.0902L10 13.8197L4.12215 18.0902L6.36729 11.1803L0.489435 6.90983H7.75486L10 0Z" fill="currentColor"/>
-                                        </svg>
-                                        <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12.2441 6.91016H19.5098L13.6318 11.1807L15.877 18.0898L9.99902 13.8193L4.12109 18.0898L6.36621 11.1807L0.488281 6.91016H7.75391L9.99902 0L12.2441 6.91016ZM9.99902 12.584L10.5869 13.0107L13.9746 15.4717L12.6807 11.4893L12.4561 10.7988L13.0439 10.3711L16.4316 7.91016H11.5176L11.293 7.21875L9.99902 3.23535V12.584Z" fill="currentColor"/>
-                                        </svg>
-                                        <span>(30)</span>
-                                    </div>
-                                    <span class="sold">
-                                        Sold: <strong>01</strong>
-                                    </span>
-                                </div>
-                                <h2 class="product__details-price"><del><?= money_format_custom($actualPrice) ?></del> <?= money_format_custom($offerPrice) ?></h2>
-                                <p>
-                                    <?=($premiumProducts->short_description)?$premiumProducts->short_description:'';?>
-                                </p>
-                                <div class="product__details-list">
-                                    <!-- <ul class="list-wrap">
-                                        <li>
-                                            Type : <span>Supplement</span>
-                                        </li>
-                                        <li>
-                                            XPD : <span>19 jun 2026</span>
-                                        </li>
-                                        <li>
-                                            CO : <span>Cheetah</span>
-                                        </li>
-                                    </ul> -->
-                                    <?=($premiumProducts->description)?$premiumProducts->description:'';?>
-                                </div>
-                                <div class="product__details-info">
-                                    <div class="sd-cart-wrap">
-                                        <form action="#">
-                                            <div class="quickview-cart-plus-minus">
-                                                <input type="text" id="quantity" value="1">
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <a href="javascript:void(0)" class="cart-btn add-to-cart" data-id="<?= $premiumProducts->id ?>">Add to cart</a>
-                                </div>
-                             
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+                       
 
 
                         <section id="ingredient" class="about__area-two section-py-150">
@@ -434,4 +482,19 @@
             }, 1000);
         });
     });
+
+
+    $(document).on('click', '.thumb-img', function () {
+
+    let imgSrc = $(this).attr('src');
+    let target = $(this).data('target');
+
+    // Change main image
+    $('#' + target).attr('src', imgSrc);
+
+    // Active border
+    $(this).closest('.product__thumbs').find('.thumb-img').removeClass('active-thumb');
+    $(this).addClass('active-thumb');
+});
+
 </script>
