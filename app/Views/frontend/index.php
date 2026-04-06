@@ -207,21 +207,20 @@
                             <div class="about__content">
                                 <div class="section__title mb-30">
                                     <span class="sub-title">TRUSTED SINCE 1980</span>
-                                    <h2 class="title">Royal Alliance Pharma </h2>
+                                    <h2 class="title">Royal Alliance Ayurveda  </h2>
                                 </div>
                                 <p>
-Royal Alliance Ayurveda is a pharmacy offering wide range of Ayurvedic medicines and wellness products. We focus on providing 100% organic Ayurvedic formulations sourced from the ancient manuscripts of Ayurveda to ensure quality and effectiveness to our customers. 
+Royal Alliance Ayurveda is a trusted name in Ayurvedic wellness, delivering high-quality herbal solutions rooted in ancient science. With decades of experience, the brand combines traditional wisdom with modern processes to ensure safe, effective, and reliable products. We focus on providing 100% organic Ayurvedic formulations sourced from the ancient manuscripts of Ayurveda to ensure quality and effectiveness to our customers.
 
                                 </p>
                              
                                 
                                 <p>
-                                    Ayurveda is a natural system of healing that originated over 3,000 years ago in India. The term “Ayurveda” comes from the Sanskrit words Ayur means “life” and Veda means knowledge - together it becomes “the science of life”. Royal Alliance continue that legacy for the last 3 decades by embracing advanced systems, expanded supply networks, and improved customer experience.  
+Ayurveda is a natural system of healing that originated over 3,000 years ago in India. The term “Ayurveda” comes from the Sanskrit words Ayur means “life” and Veda means knowledge - together it becomes “the science of life”. Royal Alliance continue that legacy for the last 3 decades by embracing advanced systems, expanded supply networks, and improved customer experience.
                                 </p>
 
                                 <p>
-                                    Royal Alliance Ayurveda’s product range includes general health supplements, immunity-support products, vitality boosters, and specialized Ayurvedic formulations that formulated from the legacy and mentorship of our Ayurvedic department, Shankara’s pharma, which support men’s wellness and overall health. We, Royal Alliance aim to make traditional Ayurvedic solutions easily accessible with dependable service and timely delivery. Our pharmacy is located in Koottilangadi, Malappuram (Kerala), India and we provide home delivery facilities with safe and solid packages. Royal Alliance Ayurveda also makes sure that the product reaches your doorstep in a few days with a complete covering safe package, so that your privacy is not compromised.
-                                </p>
+Royal Alliance Ayurveda’s product range includes general health supplements, immunity-support products, vitality boosters, and specialized Ayurvedic formulations that formulated from the legacy and mentorship of our Ayurvedic department, Shankara’s pharma, which support men’s wellness and overall health. We, Royal Alliance aim to make traditional Ayurvedic solutions easily accessible with dependable service and timely delivery. We provide home delivery facilities with safe and solid packages. Royal Alliance Ayurveda also makes sure that the product reaches your doorstep in a few days with a complete covering safe package, so that your privacy is not compromised.                                </p>
                                 <div class="about__btn">
                                     <a href="<?= base_url('products') ?>" class="tg-btn red-btn">
                                         Shop Now
