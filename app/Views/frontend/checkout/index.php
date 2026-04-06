@@ -53,20 +53,20 @@
                                         </div>
                                         <div class="form-group mt-2 mb-2">
                                             <label>Phone</label>
-                                            <input type="text" class="form-control w-100" autocomplete="tel" id="shipping_phone" name="shipping_phone" >
+                                            <input type="text" class="form-control w-100" autocomplete="tel" id="shipping_phone" name="shipping_phone" placeholder="Phone Number" >
                                             <div id="shipping_phoneError" class="text-danger invalid-feedback"></div>
                                         </div>
                                        
                                         <div class="form-group">
                                             <label>Name</label>
-                                            <input type="text" class="form-control" autocomplete="name" name="shipping_name" id="shipping_name">
+                                            <input type="text" class="form-control" autocomplete="name" name="shipping_name" id="shipping_name" placeholder="Name">
                                             <input type="hidden" name="shipping_address_id" id="shipping_address_id" value="">
                                             <div id="shipping_nameError" class="text-danger invalid-feedback"></div>
                                         </div>
                                         
                                         <div class="form-group">
                                             <label>Address</label>
-                                            <textarea class="form-control" name="shipping_address" autocomplete="street-address" id="shipping_address" rows="3"></textarea>
+                                            <textarea class="form-control" name="shipping_address" placeholder="Address" autocomplete="street-address" id="shipping_address" rows="3"></textarea>
                                             <div id="shipping_addressError" class="text-danger invalid-feedback"></div>
                                         </div>
 
@@ -74,14 +74,14 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label>City</label>
-                                                    <input type="text" class="form-control" name="shipping_city" autocomplete="city" id="shipping_city">
+                                                    <input type="text" class="form-control" placeholder="City" name="shipping_city" autocomplete="city" id="shipping_city">
                                                     <div id="shipping_cityError" class="text-danger invalid-feedback"></div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label>State</label>
-                                                    <input type="text" class="form-control" autocomplete="state" name="shipping_state" id="shipping_state">
+                                                    <input type="text" class="form-control" placeholder="State" autocomplete="state" name="shipping_state" id="shipping_state">
                                                     <div id="shipping_stateError" class="text-danger invalid-feedback"></div>
                                                 </div>
                                             </div>
@@ -91,14 +91,14 @@
                                             <div class="col-md-6">
                                                 <div class="form-group mb-2">
                                                     <label>Pincode</label>
-                                                    <input type="text" class="form-control" autocomplete="postal-code" name="shipping_pincode" id="shipping_pincode">
+                                                    <input type="text" class="form-control" placeholder="Pincode" autocomplete="postal-code" name="shipping_pincode" id="shipping_pincode">
                                                     <div id="shipping_pincodeError" class="text-danger invalid-feedback"></div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label>Country</label>
-                                                    <input type="text" class="form-control" name="shipping_country" autocomplete="country" id="shipping_country">
+                                                    <input type="text" class="form-control" placeholder="Country" name="shipping_country" autocomplete="country" id="shipping_country">
                                                     <div id="shipping_countryError" class="text-danger invalid-feedback"></div>
                                                 </div>
                                             </div>

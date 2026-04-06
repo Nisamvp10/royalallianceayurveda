@@ -26,8 +26,9 @@ class Home extends BaseController
         $feedback=$this->feedbackModel->where('status',1)->get()->getResult();
         //$services = $this->serviceModel->where('client_id',$cardInfo['client_id'])->orderBy('id', 'ASC')->get()->getResult();
         $industries  = $this->industyModel->where(['status' => 1])->orderBy('id','ASC')->limit(3)->get()->getResult();    
-        //echo  $this->industyModel->getLastQuery();      
-        return view('frontend/theme',compact('banner','industries','feedback','services'));
+        //echo  $this->industyModel->getLastQuery();   
+        $page = "home";
+        return view('frontend/theme',compact('banner','industries','feedback','services','page'));
         
     }
 }
