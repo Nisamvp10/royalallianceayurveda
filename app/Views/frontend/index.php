@@ -470,7 +470,7 @@ Royal Alliance Ayurveda is a pharmacy offering wide range of Ayurvedic medicines
                                                 <div class="accordion-body">
                                               
                                                     <p>
-                                                         Cheetah Oil is designed to be a permanent, natural solution rather than a quick fix, so it does not claim to offer sudden changes. Typically, results begin to appear after 10 to 12 days of continuous, daily use.
+                                                         Cheetah Oil is designed to be a permanent, natural solution rather than a quick fix, so it does not claim to offer sudden changes. Typically, results begin to appear after 4 days of continuous, daily use.
                                                     </p>
                                                 </div>
                                             </div>

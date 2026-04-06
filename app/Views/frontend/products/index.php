@@ -435,7 +435,7 @@
                                     </svg>
                                 </div>
 
-                           Take 8 drops mixed with warm milk or juice.
+                           Take 8 to 10 drops mixed with warm milk or juice.
 
 
 
