@@ -12,10 +12,8 @@
                         <div class="login__left-side"  data-background="<?=base_url('public/assets/template/');?>assets/img/br.jpg">
                            <a href="<?=base_url();?>"><img src="<?=base_url('public/assets/template/');?>assets/img/logo.png" width="150" alt="logo"></a>
                             <div class="login__left-content">
-                                <p>“This software simplifies the website building process, making it a breeze to manage our
-                                    online presence.”</p>
-                                <h4 class="title">David Handerson</h4>
-                                <span>Founder & CEO</span>
+                                <p>“Ayurveda is a natural system of healing that originated over 3,000 years ago in India”</p>
+                               
                             </div>
                         </div>
                     </div>
