@@ -197,7 +197,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="offCanvas-toggle"><img src="<?=base_url('public/assets/template/');?>assets/img/close.png" alt="icon"></div>
             <div class="offCanvas-body">
                 <div class="offCanvas-content">
-                    <h3 class="title">Getting all of the <span>Nutrients</span> you need simply cannot be done without supplements.</h3>
+                     <h3 class="title">Royal Alliance Ayurveda is a trusted name in <span>Ayurvedic wellness</span>, delivering high-quality herbal solutions rooted in ancient science.</h3>
+                    <!-- <h3 class="title">Getting all of the <span>Nutrients</span> you need simply cannot be done without supplements.</h3> -->
                     <p>Nam libero tempore, cum soluta nobis eligendi cumque quod placeat facere possimus assumenda omnis dolor repellendu sautem temporibus officiis</p>
                 </div>
                 <div class="offcanvas-contact">
