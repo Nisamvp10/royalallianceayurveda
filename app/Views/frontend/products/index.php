@@ -679,7 +679,7 @@
                             <div class="faq__inner-wrap" >
                                 <div class="section__title  mb-60">
                                     <span class="sub-title">our Royalalliance answer</span>
-                                    <h2 class="title">what people aske?</h2>
+                                    <h2 class="title">what people ask?</h2>
                                 </div>
                                 <div class="faq__item-wrap faq__item-wrap-three">
                                     <div class="accordion" id="accordionExample">
