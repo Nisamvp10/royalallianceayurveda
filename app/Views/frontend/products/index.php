@@ -569,7 +569,7 @@
                                             </svg>
                                         </div>
                                         <h2 class="title">"As someone with a busy lifestyle, this supplement helps me stay balanced without feeling jittery or tired."</h2>
-                                        <span>Rahul</span>
+                                        <span>Rahul M N</span>
                                     </div>
                                 </div>
                             </div>
@@ -597,7 +597,7 @@
                                             </svg>
                                         </div>
                                         <h2 class="title">"This supplement truly changed how I feel every day. I wake up energized and ready to go!"</h2>
-                                        <span>Justin</span>
+                                        <span>Justin Kdakath</span>
                                     </div>
                                 </div>
                             </div>
@@ -625,7 +625,7 @@
                                             </svg>
                                         </div>
                                         <h2 class="title">"As someone with a busy lifestyle, this supplement helps me stay balanced without feeling jittery or tired."</h2>
-                                        <span>Muhzin</span>
+                                        <span>Muhzin K</span>
                                     </div>
                                 </div>
                             </div>
@@ -653,7 +653,7 @@
                                             </svg>
                                         </div>
                                         <h2 class="title">"This supplement truly changed how I feel every day. I wake up energized and ready to go!"</h2>
-                                        <span>Daniel Brown</span>
+                                        <span>Dani M Hohan</span>
                                     </div>
                                 </div>
                             </div>
