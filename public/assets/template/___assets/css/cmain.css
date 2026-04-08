@@ -9,7 +9,7 @@
   --tg-heading-line-height: 1.2;
   --tg-body-color: #777777;
   --tg-heading-color: #222222;
-  --tg-theme-primary: #c69b5d;
+  --tg-theme-primary: #d82533;
   --tg-theme-secondary: #222222;
   --tg-color-dark-blue: #0E104B;
   --tg-color-yellow-light: #FAA432;
@@ -852,7 +852,7 @@ textarea {
   height: 100%;
   width: 100%;
   background: #090909;
-  opacity: 0.65;
+  opacity: 0.85;
   z-index: -1;
 }
 
@@ -1179,9 +1179,7 @@ textarea {
     padding-bottom: 60px;
   }
 }
-.section-pt-100 {
-  padding-top: 100px;
-}
+
 .section-pb-100 {
   padding-bottom: 100px;
 }
@@ -1189,9 +1187,6 @@ textarea {
 @media (max-width: 767.98px) {
   .section-pb-100 {
     padding-bottom: 60px;
-  }
- .section-pt-100 {
-    padding-top: 60px;
   }
 }
 
@@ -3284,7 +3279,7 @@ textarea {
 
 .banner__content .title {
   margin-bottom: 20px;
-  font-size: 80px;
+  font-size: 70px;
   color: var(--tg-color-white-default);
   letter-spacing: 0.02em;
   line-height: 1.1;
@@ -4081,7 +4076,8 @@ textarea {
 }
 
 .about__content-three {
-  padding-left: 80px;
+  padding-left: 1px;
+  text-align: justify;
 }
 
 @media (max-width: 1199.98px) {
@@ -4101,7 +4097,7 @@ textarea {
 }
 
 .about__content-three .about__list {
-  margin-bottom: 0px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 767.98px) {
@@ -4185,8 +4181,8 @@ textarea {
 
 .about__list-three {
   gap: 20px 60px;
-  justify-content: center;
-  margin-bottom: 70px;
+  justify-content: start;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 991.98px) {
@@ -4394,7 +4390,7 @@ textarea {
 }
 
 .about__img-three {
-  padding-right: 110px;
+  padding-right: 30px;
 }
 
 @media (max-width: 1199.98px) {
@@ -5940,7 +5936,7 @@ textarea {
   left: 0;
   top: 0;
   background: var(--tg-color-gray-1);
-  height: 100%;
+  height: 44%;
   width: 100%;
   z-index: -1;
 }
@@ -6079,7 +6075,7 @@ textarea {
 }
 
 .faq__inner-wrap {
-  padding: 1px 145px;
+  padding: 145px 145px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -o-border-radius: 20px;
@@ -6090,13 +6086,13 @@ textarea {
 
 @media (max-width: 1500px) {
   .faq__inner-wrap {
-    padding: 1px 130px;
+    padding: 130px 130px;
   }
 }
 
 @media (max-width: 1199.98px) {
   .faq__inner-wrap {
-    padding: 1px 80px;
+    padding: 100px 80px;
   }
 }
 
@@ -9699,7 +9695,7 @@ blockquote cite {
 .login__form-wrap {
   text-align: center;
   padding: 30px 15px;
-  width: 65%;
+  width: 400px;
   margin: 0 auto;
   display: -webkit-box;
   display: -moz-box;
@@ -10079,16 +10075,6 @@ blockquote cite {
 
 .copyright__content p a:hover {
   color: var(--tg-theme-primary);
-}
-
-.iti--allow-dropdown {
-  width: 100%;
-}
-
-a.logbtn {
-  width: fit-content;
-  float: right;
-  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

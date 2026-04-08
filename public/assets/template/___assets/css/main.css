@@ -1179,9 +1179,7 @@ textarea {
     padding-bottom: 60px;
   }
 }
-.section-pt-100 {
-  padding-top: 100px;
-}
+
 .section-pb-100 {
   padding-bottom: 100px;
 }
@@ -1189,9 +1187,6 @@ textarea {
 @media (max-width: 767.98px) {
   .section-pb-100 {
     padding-bottom: 60px;
-  }
- .section-pt-100 {
-    padding-top: 60px;
   }
 }
 
@@ -4101,7 +4096,7 @@ textarea {
 }
 
 .about__content-three .about__list {
-  margin-bottom: 0px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 767.98px) {
@@ -5940,7 +5935,7 @@ textarea {
   left: 0;
   top: 0;
   background: var(--tg-color-gray-1);
-  height: 100%;
+  height: 44%;
   width: 100%;
   z-index: -1;
 }
@@ -6079,7 +6074,7 @@ textarea {
 }
 
 .faq__inner-wrap {
-  padding: 1px 145px;
+  padding: 145px 145px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -o-border-radius: 20px;
@@ -6090,13 +6085,13 @@ textarea {
 
 @media (max-width: 1500px) {
   .faq__inner-wrap {
-    padding: 1px 130px;
+    padding: 130px 130px;
   }
 }
 
 @media (max-width: 1199.98px) {
   .faq__inner-wrap {
-    padding: 1px 80px;
+    padding: 100px 80px;
   }
 }
 

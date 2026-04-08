@@ -23,4 +23,8 @@ class CommonController extends BaseController {
         $page = "FAQ";
         return view('frontend/faq',compact('page'));
     }
+    public function promo() {
+        $page = "Promo";
+        return view('frontend/products/promo',compact('page'));
+    }
 }

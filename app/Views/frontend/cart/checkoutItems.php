@@ -36,7 +36,7 @@
                             ?>
                             <div class="d-flex align-items-center justify-content-between">
                                 <p><?= $res['product_title'] ?> x <?= $res['quantity'] ?></p>
-                                <p><?= money_format_custom($res['price']) ?></p>
+                                <p><?= money_format_custom(($res['price'] * $res['quantity'])) ?></p>
                             </div>
                             <?php
                         }

@@ -288,3 +288,4 @@ $routes->post('reset-password','AuthController::resetpassword');
 $routes->get('product-tracking','frond\ProductTrackingController::index');
 $routes->post('track-order','frond\ProductTrackingController::trackOrder');
 $routes->get('faq','CommonController::faq');
+$routes->get('promo','CommonController::promo');
