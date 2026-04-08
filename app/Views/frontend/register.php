@@ -77,7 +77,7 @@
                                     </div>
                                 </form>
                             <div class="account__switch">
-                                <p>Remember your password?<a href="login.html">Sign in</a></p>
+                                <p>Remember your password?<a href="<?=base_url('login');?>">Sign in</a></p>
                             </div>
                         </div>
                     </div>
