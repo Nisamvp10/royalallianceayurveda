@@ -11,7 +11,6 @@
                            <a href="<?=base_url();?>"><img src="<?=base_url('public/assets/template/');?>assets/img/logo.png" width="150" alt="logo"></a>
                             <div class="login__left-content">
                                 <p>“Ayurveda is a natural system of healing that originated over 3,000 years ago in India”</p>
-                              
                             </div>
                         </div>
                     </div>
