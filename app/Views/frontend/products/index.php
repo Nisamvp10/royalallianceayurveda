@@ -153,6 +153,68 @@
             <!-- banner-area-end -->
             <!-- about-area -->
             
+                        <section id="ingredient" class="about__area-three p-relative section-pt-100 section-pb-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-8">
+                            <div class="section__title mb-60" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                                <span class="sub-title">TRUSTED SINCE 1980</span>
+                                <h2 class="title">Helps to Improve Male Sexual Wellness </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-md-10">
+                            <div class="about__img-three p-relative">
+                                <div class="main__img p-relative">
+                                    <img src="<?=base_url('public/assets/template/');?>assets/img/pa.png" alt="img">
+                                    <div class="marquee__wrap marquee__wrap-two">
+                                        <div class="slider__marquee clearfix marquee-wrap">
+                                            <div class="marquee_mode marquee__group">
+                                                <h6 class="marquee__item">Raise Blood Circulation </h6>
+                                                <h6 class="marquee__item">Restore Shukra Dhatu (Vitality) </h6>
+                                                <h6 class="marquee__item">Reduce stress-related anxiety</h6>
+                                                <h6 class="marquee__item">Improve male health and wellness</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about__content-three">
+                                <p>
+                                    Cheetah Sithaswagandhadi Thailam is a premium, ayurvedic quality formulation developed by Shankara’s Pharma, Malappuram, and Kerala. Enriched with N 100% ayurvedic herbs like olive oil, gingelly oil, madhu, shigru,pippalli, ashwagandha, Cheetah ensure quality and effectiveness to our customers. This oil is designed to improve blood circulation, restore Shukra Dhatu (Vitality), reduce stress-related anxiety and improve male health and wellness.
+                                </p>
+
+                                <p>It contains all natural herbs that may functioned as a permanent solution for urinary incontinence, overactive bladder (OAB), sexual numbness, erectile dysfunction (ED), lack of firmness and thickness, premature ejaculation, nightfall / wet dreams, phimosis,  nerve issues, low sperm count.</p>
+
+
+                                <p>
+                                    Disclaimer: Cheetah oil never claims sudden changes. This is a medicine for solve the patient’s problems forever. Results typically begin to appear only after 10–12 days of continuous use. A patient may need to use at least 4 bottles of Cheetah Oil for the condition to improve.
+                                </p>
+
+                                <ul class="list-wrap about__list">
+                                <li>✅ Scientifically Tested Ingredients</li>
+                                <li>🌿 100% Ayurvedic & Herbal 	</li>
+                                <li>🛡️ No Synthetic Side Effects </li>
+                                <li>❤️ Developed by Certified Doctors</li>
+                              
+                            </ul>
+                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+            </section>
+
+
+
+                
+
+
+
                         <section id="features" class="features__area section-bg-four section-pt-100 section-pb-100">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -247,103 +309,6 @@
                 </div>
                 <div class="features__shape-three">
                     <img src="https://royalallianceayurveda.com/demo/public/assets/template/assets/img/h3_features_shape.svg" alt="shape" data-sal="slide-right" data-sal-duration="700" data-sal-delay="100" class="sal-animate">
-                </div>
-            </section>
-
-                
-
-
-
-                        <section id="features" class="features__area section-bg-four section-pt-100 section-pb-100">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="section__title text-center white-title mb-60" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                                <span class="sub-title">TRUSTED SINCE 1980</span>
-                                <h2 class="title">HERBS that used to Manufacture</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row gutter-y-30">
-                        <div class="col-lg-4 col-sm-6" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                            <div class="features__item-three">
-                                <div class="features__icon-three">
-                                        <img src="<?=base_url('public/assets/template/');?>assets/img/olive-oil.png" alt="Logo">
-                                   
-                                </div>
-                                <div class="features__content-three">
-                                    <h2 class="title">Olive Oil</h2>
-                                    <p>Reduce blood pressure and improve lining of blood vessels</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">
-                            <div class="features__item-three">
-                                <div class="features__icon-three">
-                                  
-                                                                        <img src="<?=base_url('public/assets/template/');?>assets/img/oil.png" alt="Logo">
-
-                                </div>
-                                <div class="features__content-three">
-                                    <h2 class="title">Gingelly Oil</h2>
-                                    <p>High in zinc, copper and calcium. Boost hormones and enzymes. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">
-                            <div class="features__item-three">
-                                <div class="features__icon-three">
-                                     <img src="<?=base_url('public/assets/template/');?>assets/img/honey.png" alt="Logo">
-
-                                </div>
-                                <div class="features__content-three">
-                                    <h2 class="title">Madhu</h2>
-                                    <p>Rich in nitrates. Elevate stamina and energy.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                            <div class="features__item-three">
-                                <div class="features__icon-three">
-                                                                        <img src="<?=base_url('public/assets/template/');?>assets/img/ayurveda.png" alt="Logo">
-
-                                </div>
-                                <div class="features__content-three">
-                                    <h2 class="title">Shigru</h2>
-                                    <p>Increase sperm count and motility. Allowing testosterone to function properly.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">
-                            <div class="features__item-three">
-                                <div class="features__icon-three">
-                                 <img src="<?=base_url('public/assets/template/');?>assets/img/ashwagandha.png" alt="Logo">
- 
-                                
-                                </div>
-                                <div class="features__content-three">
-                                    <h2 class="title">Ashwagandha</h2>
-                                    <p>Encourages the production of Nitric Oxide that helps dilate the blood vessels in genital area. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">
-                            <div class="features__item-three">
-                                <div class="features__icon-three">
-                               
-                                                                 <img src="<?=base_url('public/assets/template/');?>assets/img/black-pepper.png" alt="Logo">
-
-                                </div>
-                                <div class="features__content-three">
-                                    <h2 class="title">Pippalli</h2>
-                                    <p>Increase stimulation and nutrients absorption. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="features__shape-three">
-                    <img src="<?=base_url('public/assets/template/');?>assets/img/h3_features_shape.svg" alt="shape" data-sal="slide-right" data-sal-duration="700" data-sal-delay="100">
                 </div>
             </section>
 
