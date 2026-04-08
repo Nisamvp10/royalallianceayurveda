@@ -339,7 +339,7 @@ Royal Alliance Ayurveda’s product range includes general health supplements, i
                         </div>
                         <div class="col-lg-6">
                             <div class="product__details-content">
-                                <span class="sub-title">Proteins, shots</span>
+                                <!-- <span class="sub-title">Proteins, shots</span> -->
                                 <h4 class="title">
                                     <?= ($premiumProducts->product_title)?$premiumProducts->product_title:'';?>
                                     <?php

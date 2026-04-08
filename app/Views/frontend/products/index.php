@@ -95,7 +95,7 @@
         <div class="col-lg-6">
             <div class="product__details-content">
 
-                <span class="sub-title">Proteins, shots</span>
+                <!-- <span class="sub-title">Proteins, shots</span> -->
 
                 <h4 class="title">
                     <?= $product['product_title'] ?? '' ?>
