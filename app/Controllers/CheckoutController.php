@@ -81,7 +81,7 @@ class CheckoutController extends Controller
 
     public function placeOrder() {
         $address_id = $this->request->getPost('address_id');
-        $payment_method = $this->request->getPost('payment_method') ?? 'gateway'; //cod
+        $payment_method = $this->request->getPost('payment_method') ?? 'cod'; //cod
         helper('cookie');
         $sessionId = get_cookie('cart_session');
 
@@ -294,6 +294,8 @@ class CheckoutController extends Controller
                     ];
                     //$response = $this->shipbuddyService->request('orders/create', 'POST', $payload);
                     $res = $this->shipbuddyService->request('orderApi/createOrder', 'POST', $payload);
+                    //print_r($res);
+                    exit();;
                    
                     $shipping_order_id = $res['response']['data'][0]['orderId'];
                     $this->customerOrderModel->update($order_id, ['payment_status' => 'unpaid','status' => 'confirmed','shipping_order_id'=>$shipping_order_id]); 

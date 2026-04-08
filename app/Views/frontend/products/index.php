@@ -308,13 +308,6 @@
                 </div>
             </section>
 
-
-                       
-
-
-
-
-
                         <section id="ingredient" class="about__area-two section-pt-100 section-pb-100">
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
@@ -455,9 +448,7 @@
                         <div class="col-xl-7 col-lg-6">
                             <div class="section__title mb-60" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                                 <span class="sub-title">OUR PRODUCTS</span>
-                                <h2 class="title">90-day wellness journey powered by Ayurvedic oils
-
-</h2>
+                                <h2 class="title">90-day wellness journey powered by Ayurvedic oils</h2>
                             </div>
                         </div>
                         <div class="col-xl-5 col-lg-6" data-sal="slide-up" data-sal-duration="700" data-sal-delay="150">
@@ -484,10 +475,10 @@
                             <div class="pricing__item active">
                                 <div class="pricing__top">
                                     <span class="pricing__plan">Month 2</span>
-                                                                     <h2 class="pricing__price"><span>(Revive)</span></h2>
+                                    <h2 class="pricing__price"><span>(Revive)</span></h2>
 
                                     <div class="pricing__content">
-                                        <p>Restores stamina and passion</p>
+                                        <p>This powerful formula works to restore your natural stamina and reignite your inner passion, allowing you to approach every day with renewed Vigor. By replenishing the body's core energy reserves, it helps overcome physical exhaustion and emotional burnout, making you feel more driven and connected.</p>
                                     </div>
                                     <div class="pricing__btn">
                                     </div>
@@ -578,7 +569,7 @@
                                             </svg>
                                         </div>
                                         <h2 class="title">"As someone with a busy lifestyle, this supplement helps me stay balanced without feeling jittery or tired."</h2>
-                                        <span>Natasha Malcoba</span>
+                                        <span>Rahul</span>
                                     </div>
                                 </div>
                             </div>
@@ -606,7 +597,7 @@
                                             </svg>
                                         </div>
                                         <h2 class="title">"This supplement truly changed how I feel every day. I wake up energized and ready to go!"</h2>
-                                        <span>Daniel Brown</span>
+                                        <span>Justin</span>
                                     </div>
                                 </div>
                             </div>
@@ -634,7 +625,7 @@
                                             </svg>
                                         </div>
                                         <h2 class="title">"As someone with a busy lifestyle, this supplement helps me stay balanced without feeling jittery or tired."</h2>
-                                        <span>Natasha Malcoba</span>
+                                        <span>Muhzin</span>
                                     </div>
                                 </div>
                             </div>
