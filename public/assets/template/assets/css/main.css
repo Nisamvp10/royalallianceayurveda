@@ -1179,9 +1179,11 @@ textarea {
     padding-bottom: 60px;
   }
 }
+
 .section-pt-100 {
   padding-top: 100px;
 }
+
 .section-pb-100 {
   padding-bottom: 100px;
 }
@@ -1190,7 +1192,8 @@ textarea {
   .section-pb-100 {
     padding-bottom: 60px;
   }
- .section-pt-100 {
+
+  .section-pt-100 {
     padding-top: 60px;
   }
 }
@@ -10089,6 +10092,230 @@ a.logbtn {
   width: fit-content;
   float: right;
   align-items: center;
+}
+
+
+
+
+
+/* ingredients */
+.ingredients-item-two {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 65px;
+}
+
+.ingredients-item-two:last-child {
+  margin-bottom: 0;
+}
+
+.ingredients-icon {
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex: 0 0 auto;
+  font-size: 35px;
+  line-height: 0;
+  color: var(--tg-color-white-default);
+  border-radius: 50%;
+  position: relative;
+}
+
+.ingredients-icon::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px dashed var(--tg-color-white-default);
+  border-radius: 50%;
+  -webkit-animation: rotateme2 10s linear infinite;
+  animation: rotateme2 10s linear infinite;
+  animation-play-state: paused;
+}
+
+.ingredients-item-two:hover .ingredients-icon::before {
+  animation-play-state: running;
+}
+
+.ingredients-content-two .title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: var(--tg-color-white-default);
+}
+
+.ingredients-content-two p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.7);
+  height: 60px;
+}
+
+.ingredients-item-wrap {
+  margin-left: 30px;
+}
+
+.ingredients-item-wrap.reverse-item {
+  margin-right: 30px;
+  margin-left: 0;
+}
+
+.ingredients-item-wrap.reverse-item .ingredients-item-two {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.rotateme2 {
+  -webkit-animation-name: rotateme;
+  animation-name: rotateme;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@keyframes rotateme2 {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotateme2 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.tg-supplement-shape {
+  position: absolute;
+  right: 0%;
+  top: 2%;
+  z-index: -1;
+}
+
+.rotateme {
+  -webkit-animation-name: rotateme;
+  animation-name: rotateme;
+  -webkit-animation-duration: 50s;
+  animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@keyframes rotateme {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rotateme {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.tg-supplement-img {
+  position: relative;
+
+}
+
+@media (max-width: 767.98px) {
+  .tg-supplement-shape .rotateme {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .tg-supplement-shape {
+    right: 0;
+    top: 5%;
+  }
+}
+
+.tg-supplement-img {
+  text-align: center !important;
+}
+
+@media (max-width: 1199.98px) {
+  .ingredients-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .ingredients-img-two {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .ingredients-item-wrap.reverse-item .ingredients-item-two {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .ingredients-item-wrap.reverse-item {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .ingredients-item-wrap.reverse-item {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .ingredients-item-wrap {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1500px) {
+  .ingredients-item-wrap {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .ingredients-item-two {
+    gap: 15px;
+    margin-bottom: 40px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

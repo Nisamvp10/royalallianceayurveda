@@ -294,8 +294,8 @@ class CheckoutController extends Controller
                     ];
                     //$response = $this->shipbuddyService->request('orders/create', 'POST', $payload);
                     $res = $this->shipbuddyService->request('orderApi/createOrder', 'POST', $payload);
-                    //print_r($res);
-                    exit();;
+                    // print_r($res);
+                    // exit();;
                    
                     $shipping_order_id = $res['response']['data'][0]['orderId'];
                     $this->customerOrderModel->update($order_id, ['payment_status' => 'unpaid','status' => 'confirmed','shipping_order_id'=>$shipping_order_id]); 

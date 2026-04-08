@@ -15,7 +15,6 @@ class ShipbuddyService
 
     public function request($endpoint, $method = 'POST', $data = [])
     {
-        echo "HERE";exit();
         $url = $this->baseUrl . $endpoint;
 
         $ch = curl_init();
@@ -26,8 +25,6 @@ class ShipbuddyService
             'origin: https://royalallianceayurveda.com'
         ];
         
-        print_r($headers);
-        exit();
 
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
