@@ -463,7 +463,7 @@
                                                                                                        <h2 class="pricing__price"><span>(Energize)</span></h2>
 
                                     <div class="pricing__content">
-                                        <p>Improves circulation and energy</p>
+                                        <p>It significantly enhances blood circulation throughout the body, ensuring that oxygen and vital nutrients are efficiently delivered to every cell. By optimizing your systemic flow, it effectively flushes out toxins and combats fatigue, providing a sustained surge of natural energy.</p>
                                     </div>
                                     <div class="pricing__btn">
                                     </div>
@@ -492,7 +492,7 @@
                                     <span class="pricing__plan">Month 3</span>
                                    <h2 class="pricing__price"><span>(Strengthen)</span></h2>
                                     <div class="pricing__content">
-                                        <p>Builds long-term vitality and confidence</p>
+                                        <p>It focuses on building long-term vitality by strengthening your body’s natural resilience and sustaining peak performance…</p>
                                     </div>
                                     <div class="pricing__btn">
                                     </div>
