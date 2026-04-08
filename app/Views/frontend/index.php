@@ -341,7 +341,10 @@ Royal Alliance Ayurveda’s product range includes general health supplements, i
                             <div class="product__details-content">
                                 <!-- <span class="sub-title">Proteins, shots</span> -->
                                 <h4 class="title">
+                                    <a href="<?=base_url('products');?>">
                                     <?= ($premiumProducts->product_title)?$premiumProducts->product_title:'';?>
+                                    </a>
+                                   </h4>
                                     <?php
                                         $price = calculatePrice(
                                             $premiumProducts->price,
@@ -353,7 +356,7 @@ Royal Alliance Ayurveda’s product range includes general health supplements, i
                                          $actualPrice = $price['actual_price'];
 
                                     ?>
-                                </h4>
+                             
                                 <div class="product__details-rating">
                                     <div class="rating">
                                         <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -371,11 +374,11 @@ Royal Alliance Ayurveda’s product range includes general health supplements, i
                                         <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M12.2441 6.91016H19.5098L13.6318 11.1807L15.877 18.0898L9.99902 13.8193L4.12109 18.0898L6.36621 11.1807L0.488281 6.91016H7.75391L9.99902 0L12.2441 6.91016ZM9.99902 12.584L10.5869 13.0107L13.9746 15.4717L12.6807 11.4893L12.4561 10.7988L13.0439 10.3711L16.4316 7.91016H11.5176L11.293 7.21875L9.99902 3.23535V12.584Z" fill="currentColor"/>
                                         </svg>
-                                        <span>(30)</span>
+                                        <span>(3587)</span>
                                     </div>
-                                    <span class="sold">
+                                    <!-- <span class="sold">
                                         Sold: <strong>01</strong>
-                                    </span>
+                                    </span> -->
                                 </div>
                                 <h2 class="product__details-price"><del><?= money_format_custom($actualPrice) ?></del> <?= money_format_custom($offerPrice) ?></h2>
                                 <p>
