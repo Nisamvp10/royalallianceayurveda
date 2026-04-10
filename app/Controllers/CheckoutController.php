@@ -81,7 +81,7 @@ class CheckoutController extends Controller
 
     public function placeOrder() {
         $address_id = $this->request->getPost('address_id');
-        $payment_method = $this->request->getPost('payment_method') ?? 'cod'; //cod
+        $payment_method = $this->request->getPost('payment_method') ?? 'gateway'; //cod
         helper('cookie');
         $sessionId = get_cookie('cart_session');
 
