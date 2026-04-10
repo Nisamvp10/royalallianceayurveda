@@ -53,6 +53,7 @@
 
                 <!-- MAIN IMAGE -->
                 <div class="product__details-img text-center">
+                    <?=$firstImage;?>
                     <img id="mainImage_<?= $product['id'] ?>"
                          src="<?= validImg($firstImage); ?>"
                          style="max-width:100%;  object-fit:contain;">

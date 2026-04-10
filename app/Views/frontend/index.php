@@ -48,6 +48,7 @@
                             foreach($banner as $slider){
                                 ?>
                                 <div class="swiper-slide">
+                                    <?=$slider->image;?>
                                     <div class="slider__bg" data-background="<?=validImg($slider->image)?>">
                                         <div class="container">
                                             <div class="row">
