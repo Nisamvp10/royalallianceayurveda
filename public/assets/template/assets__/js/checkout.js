@@ -114,7 +114,7 @@ document.addEventListener('click', async (e) => {
                             key: response.key,
                             amount: response.amount,
                             currency: "INR",
-                            name: "Robin Food",
+                            name: "Royal Alliance Ayurveda",
                             description: "Order Payment",
                             image: App.getSiteurl() + "/public/assets/template/assets/images/logo.png",
                             order_id: response.razorpay_order_id,
