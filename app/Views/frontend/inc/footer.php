@@ -54,6 +54,7 @@
                                 <li><a href="<?=base_url('products');?>">Products</a></li>
                                  <li><a href="<?=base_url('contact');?>">Contact Us</a></li>
                                      <li><a href="<?=base_url('about-us');?>">About Us</a></li>
+                                     <li><a href="<?=base_url('product-tracking');?>">Product Tracking</a></li>
                             </ul>
                         </div>
                     </div>

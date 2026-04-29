@@ -5,13 +5,13 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-10">
                             <div class="breadcrumb__content">
-                                <h2 class="title">About Us</h2>
+                                <h2 class="title">Product Tracking</h2>
                                 <nav class="breadcrumb">
                                     <span property="itemListElement" typeof="ListItem">
                                         <a href="<?=base_url();?>">Home</a>
                                     </span>
                                     <span class="breadcrumb-separator">|</span>
-                                    <span property="itemListElement" typeof="ListItem">About Us</span>
+                                    <span property="itemListElement" typeof="ListItem">Product Tracking</span>
                                 </nav>
                             </div>
                         </div>
