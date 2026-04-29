@@ -3,14 +3,17 @@ namespace App\Controllers\frond;
 
 use App\Controllers\BaseController;
 use App\Services\ShipbuddyService;
+use App\Services\Producttracking;
 
 class ProductTrackingController extends BaseController
 {
     protected $shipbuddyService;
+    protected $producttracking;
 
     public function __construct()
     {
         $this->shipbuddyService = new ShipbuddyService();
+        $this->producttracking = new Producttracking();
     }   
     public function index()
     {
@@ -18,7 +21,19 @@ class ProductTrackingController extends BaseController
         return view('frontend/product-tracking', compact('page'));
     }
 
-     public function trackOrder()
+    public function trackOrder()
+    {
+        $rules = ['trackingNumber' => 'required|numeric'];
+        if(!$this->validate($rules)) {
+              return $this->response->setJSON(['success' => false , 'errors' => $this->validator->getErrors()]);
+        }
+        $tracKingNumer = $this->request->getPost('trackingNumber');
+        $track = $this->producttracking->track($tracKingNumer);
+       return $this->response->setJSON($track);
+
+    }
+
+     public function __trackOrder()
     {
         $orderId = 'ORD' . time();
 
