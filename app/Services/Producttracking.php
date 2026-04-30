@@ -16,8 +16,9 @@ class Producttracking {
     {
 
         $token = $this->token;
-
-        $url = "https://api.shypbuddy.net/api/direct-api/shipment-tracking?awbNumbers=368974669556";
+        //remove spaces $trackingNumber
+        $trackingNumber = str_replace(' ', '', $trackingNumber);
+        $url = "https://api.shypbuddy.net/api/direct-api/shipment-tracking?awbNumbers=".urlencode($trackingNumber);
 
         $ch = curl_init();
 
