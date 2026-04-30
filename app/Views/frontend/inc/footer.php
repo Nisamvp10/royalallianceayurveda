@@ -51,8 +51,8 @@
                         <div class="footer__widget">
                             <h2 class="footer__widget-title">Company</h2>
                             <ul class="list-wrap footer__widget-link">
-                                <li><a href="<?=base_url('products');?>">Products</a></li>
-                                 <li><a href="<?=base_url('contact');?>">Contact Us</a></li>
+                                    <li><a href="<?=base_url('products');?>">Products</a></li>
+                                    <li><a href="<?=base_url('contact');?>">Contact Us</a></li>
                                      <li><a href="<?=base_url('about-us');?>">About Us</a></li>
                                      <li ><a href="<?=base_url('product-tracking');?>">Product Tracking</a></li>
                             </ul>
