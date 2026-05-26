@@ -439,7 +439,7 @@ class CartService
             return ['status' => false, 'message' => 'Coupon code is expired'];
         }
         // if coupon is used by same user then return false
-        $couponUsed = $this->customerOrderModel->where(['coupen_code_id' => $coupon['id'], 'user_id' => $cart['user_id']])->first();
+        $couponUsed = $this->customerOrderModel->where(['coupen_code_id' => $coupon['id'], 'user_id' => $cart['user_id'],'status !='=>'active'])->first();
         if($couponUsed){
             return ['status' => false, 'message' => 'Coupon code is already used'];
         }

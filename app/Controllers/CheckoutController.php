@@ -285,7 +285,7 @@ class CheckoutController extends Controller
                             "address" => $address->address_line1 ?? '',
                             //"landmark" => $shippingAddress['landmark'] ?? '',
                             //"pincode" => $address->postal_code ?? '',
-                            "pincode" => (int)$pincode, // ✅ important
+                            "pincode" => (int)$pincode, //  important
                             "city" => $address->city ?? '',
                             "state" => $address->state ?? '',
                             "country" => $address->country ?? ''
