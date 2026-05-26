@@ -426,7 +426,7 @@ class CartService
         }
         
         //orderpurchsed history check the coupon is used by same user then return false
-        $orderHistory = $this->cartModel->where(['couponcode_id' => $coupon['id'], 'user_id' => $cart['user_id']])->first();
+        $orderHistory = $this->cartModel->where(['couponcode_id' => $coupon['id'], 'user_id' => $cart['user_id'],'status !='=>'active'])->first();
         if($orderHistory){
             return ['status' => false, 'message' => 'Coupon code is already used'];
         }
